@@ -1,0 +1,402 @@
+		<script src="https://archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app105.us.archive.org';v.server_ms=186;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="https://web.archive.org/_static/js/playback.bundle.js?v=bQvHU8mx" charset="utf-8"></script>
+<script type="text/javascript" src="https://web.archive.org/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://services.dhyanapeetam.org/raju-shareameal.shtml","20101214090404","https://web.archive.org/","web","/_static/",
+	      "1292317444");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web.archive.org/_static/css/banner-styles.css?v=bsmaklHF" />
+<link rel="stylesheet" type="text/css" href="https://web.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<script language="javascript" type="text/javascript">
+		<!--
+
+		var isDebug = false;
+		var DivTagPrefix = "USD";
+		var USDrate = 49;
+
+		function submitform()
+		{
+			document.form99.submit();
+		}
+			
+		function isNumericTst(amtFieldVal, funName, itsForm) {
+			
+			if (isDebug) { alert("In isNumericTst() function due to " + funName); }
+			// alert("In isNumericTst() function due to " + funName + " DivTagName: " + DivTagPrefix + itsForm.name); 
+			if (isDebug) { alert("Amount field value: " + amtFieldVal); }
+			
+			// return -1;
+			
+			if ( (amtFieldVal/amtFieldVal == 1)&&(amtFieldVal != 0) ) {
+				if (isDebug) { alert("Amount field value is Numeric: " + amtFieldVal); }
+
+				if ( Math.round(amtFieldVal) * 100 == 100 * amtFieldVal ) {
+					if (isDebug) { alert("Amount field value is Whole number: " + amtFieldVal); }
+						// do nothing
+				} else {
+					if (isDebug) { alert("Amount field value has Decimal Portion: " + amtFieldVal); }
+						// do nothing
+				}
+				
+				itsForm.AmountDisp.style.color = "#0000cc";
+				
+				UpdateValues(itsForm, 0);
+				
+				return 0;
+				
+			} else {
+				if (amtFieldVal == 0 || amtFieldVal.toString().length == 0 || amtFieldVal < 0) {
+					if (isDebug) { alert("Amount field value is 0 or '' : " + amtFieldVal + " : " + amtFieldVal.toString().length ); }
+					
+					// do nothing
+					itsForm.AmountDisp.style.color = "#000000";
+					
+					UpdateValues(itsForm, 1);
+					
+					return 1;
+					
+				} else {
+					if (isDebug) { alert("Amount field value is NOT Numeric: " + amtFieldVal); }
+					
+					// do nothing
+					itsForm.AmountDisp.style.color = "#ff0000";
+					
+					UpdateValues(itsForm, -1);
+					
+					return -1;
+					
+				}
+			}
+		}
+
+		function UpdateValues(itsForm, isNumericTstRtn) {
+			
+			var DivTagName = DivTagPrefix + itsForm.name;
+			
+			
+			// var isNumericTstRtn = isNumericTst(itsForm.AmountDisp.value, "ValidateSubmit", itsForm); 
+			
+			if (isNumericTstRtn == 0) {
+				itsForm.amount.value = Math.round(parseInt(itsForm.AmountDisp.value));
+				itsForm.AmountDisp.style.color = "#0066cc";
+				var itsFormName = itsForm.name;
+				if (itsFormName.substring(itsFormName.length - 2, itsFormName.length) == "PP") {
+					document.getElementById(DivTagName).innerHTML = "<span style='color: #ffffff; background:#2222cc'>&nbsp; Approx. IND Rupees: <B>Rs. " + Math.round(parseInt(itsForm.AmountDisp.value) * USDrate ) + "</B> &nbsp;</span>";
+					itsForm.amount.value = Math.round(parseFloat(itsForm.AmountDisp.value, 2), 2);
+				} else {
+					itsForm.amount.value = itsForm.amount.value + "RS"
+					document.getElementById(DivTagName).innerHTML = "<span style='color: #ffffff; background:#2222cc'>&nbsp; Approx. USD equivalent: <B>$" + Math.round(parseInt(itsForm.AmountDisp.value) / USDrate ) + "</B> &nbsp;</span>";
+				}
+				// itsForm.amount.value = Math.round(parseInt(itsForm.AmountDisp.value)) + "RS";
+				if (isDebug) { alert(itsForm.AmountDisp.style.color + " - color"); }
+				
+				// document.getElementById(DivTagName).style.color=  = "";
+
+				// return true;
+			} else {
+				itsForm.amount.value = "0RS";
+				if (isNumericTstRtn == 1) {
+					itsForm.AmountDisp.style.color = "#000000";
+					document.getElementById(DivTagName).innerHTML = "";
+					if (isDebug) { alert(itsForm.AmountDisp.style.color + " - color"); }
+				} else {
+					itsForm.AmountDisp.style.color = "#ff0000";
+					document.getElementById(DivTagName).innerHTML = "<span style='color: #ffffff; background:#cc2222'>&nbsp; -- Please Enter Only Numerals -- &nbsp;</span>";
+					if (isDebug) { alert(itsForm.AmountDisp.style.color + " - color"); }
+				}
+				// return false;
+			}
+			
+			// return isNumericTstRtn;
+		}
+
+		function ValidateSubmit(itsForm, callFrom) {
+			
+			// alert("I am In.");
+			if (isDebug) { alert(itsForm.amount.value + ", User Input: " + itsForm.AmountDisp.value); }
+			
+			// alert("Form name: " + itsForm.name);
+			
+			var isNumericTstRtn = isNumericTst(itsForm.AmountDisp.value, "ValidateSubmit", itsForm); 
+			
+			if (isNumericTstRtn == 0) {
+				if (!isDebug) { itsForm.submit(); if (callFrom == "onSubmit") return true;}
+			} else {
+				if (isNumericTstRtn == 1) {
+					alert("Please enter the donation amount before submiting");
+				} else {
+					alert("Please enter only numerals in the amount field");
+				}
+				if (callFrom == "onSubmit") return false;
+			}
+			
+			if (isDebug) { alert(itsForm.amount.value + ", User Input: " + itsForm.AmountDisp.value); }
+		}
+
+		function ValidateSubmitPP(itsForm, callFrom) {
+			
+			// alert("I am In.");
+			if (isDebug) { alert(itsForm.amount.value + ", User Input: " + itsForm.AmountDisp.value); }
+			
+			// alert("Form name: " + itsForm.name);
+			
+			var isNumericTstRtn = isNumericTst(itsForm.AmountDisp.value, "ValidateSubmit", itsForm); 
+			
+			if (isNumericTstRtn == 0) {
+				if (!isDebug) { 
+					// alert("This Form Name: " + itsForm.name);
+					
+					var refFormName = itsForm.name.substring(0, itsForm.name.length - 2);
+					var refForm = document.getElementsByName(refFormName)[0];
+					
+					// alert("Reference Form Name: " + refForm.name);
+					// itsForm.date.value = "Bidadi, India, on " + refForm.date.value;
+					// itsForm.prgname.value = refForm.prgname.value;
+					
+					itsForm.submit(); 
+					if (callFrom == "onSubmit") return true;
+				}
+			} else {
+				if (isNumericTstRtn == 1) {
+					alert("Please enter the donation amount before submiting");
+				} else {
+					alert("Please enter only numerals in the amount field");
+				}
+				if (callFrom == "onSubmit") return false;
+			}
+			
+			if (isDebug) { alert(itsForm.amount.value + ", User Input: " + itsForm.AmountDisp.value); }
+		}
+		
+        function ValidateSubmitRecurring(itsForm){
+            var rc_amount = itsForm.rc_amount.value;
+			if ( (rc_amount/rc_amount == 1)&&(rc_amount != 0) ) {
+                itsForm.submit();
+            }
+            else{
+                alert("Enter the numeric values");
+            }
+            
+        }		
+
+		//-->
+		</script>
+<html>
+<head>
+<title>Nithyananda Global Initiatives</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="description" content="Service activities offered by Dhyanapeetam.">
+<meta name="keywords" content="social services, free services, medical camp, health, free food distribution, anna dhan, meditation, healing, youth empowerment, education, health, world peace, vedic culture, nithyananda global community initiatives, community services, paramahamsa nithyananda, dhyanapeetam, nithyananda, anna, akshara, arogya, asha-kiran, aptamitra, aapath seva">
+<link href="../css/web.archive.org/web/20101214083725cs_/http%EF%B9%95/services.dhyanapeetam.org/style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="780" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td><a href="index.asp.html"><img border="0" src="../images/web.archive.org/web/20100708062012im_/http%EF%B9%95/services.dhyanapeetam.org/images/banner2.jpg" width="792" height="134" alt="Dhyanapeetam Charitable Trust - Click here to go to Home page"></a></td>
+  </tr>
+  <tr>
+    <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://web.archive.org/web/20101214090404oe_/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="792" height="122">
+      <param name="movie" value="~statHeader_latest000011.swf"/>
+      <param name="quality" value="high"/>
+      <embed src="../web.archive.org/web/20100708064651oe_/http%EF%B9%95/services.dhyanapeetam.org/~statHeader_latest000011.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="792" height="122"></embed>
+    </object></td>
+  </tr>
+  <tr>
+ <td><table width="100%" border="0" cellspacing="1" cellpadding="0">
+      <tr>
+        <td width="127" align="center" background="../gif/web.archive.org/web/20101214083537im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_5.gif"><a href="index.asp.html"><strong>Home</strong></a></td>	  
+        <td width="98" height="53" align="center" background="../gif/web.archive.org/web/20101214083745im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_1.gif"><a href="aboutus.shtml"><strong>About
+          Us</strong></a></td>
+        <td width="115" height="53" align="center" background="../gif/web.archive.org/web/20101214083510im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_2.gif"><a href="whatwedo.shtml"><strong>Get
+          Involved</strong></a></td>
+        <td width="101" height="53" align="center" background="../gif/web.archive.org/web/20101214083557im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_4.gif"><a href="ourprojects.shtml"><strong>Our
+          Projects</strong></a></td>
+        <td width="82" height="53" align="center" background="../gif/web.archive.org/web/20101214083805im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_3.gif"><a href="takeaction.asp.html"><font size="2" color="#800000"><b>Take
+          Action</b></font></a></td>
+        <td width="115" align="center" background="../gif/web.archive.org/web/20101214083510im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_2.gif"><a href="https://web.archive.org/web/20101214090404/http://picasaweb.google.com/NGCI2010"><strong><strong>Photo Gallery</strong></a></td>
+        <td width="127" height="53" align="center" background="../gif/web.archive.org/web/20101214083537im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_5.gif"><a href="contact.shtml"><strong>Contact information</strong></a></td>
+        <td height="53" bgcolor="#AFBF58">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+<table align="center">
+  <tr>
+    <td valign="top"><table width="794" border="0" cellspacing="1">
+      <tr>
+        <td valign="top" width="122" background="../gif/web.archive.org/web/20101214083410im_/http%EF%B9%95/services.dhyanapeetam.org/images/body_back.gif">
+			  <table border="0" cellpadding="5" width="160" cellspacing="5">
+              <tr>
+                <td width="154" align="center" background="../images/web.archive.org/web/20101214083938im_/http%EF%B9%95/services.dhyanapeetam.org/images/grey.jpg"><a href="aboutus.shtml"><strong>About Us</strong></a></td>
+              </tr>
+              <tr>
+                <td width="154" align="center" background="../images/web.archive.org/web/20101214083938im_/http%EF%B9%95/services.dhyanapeetam.org/images/grey.jpg"><a href="nithyananda.shtml"><strong>Founder</strong></a></td>
+              </tr>
+              <tr>
+                <td width="154" align="center" background="../images/web.archive.org/web/20101214083938im_/http%EF%B9%95/services.dhyanapeetam.org/images/grey.jpg"><a href="unique.shtml"><strong>Why are we Unique</strong></a></td>
+              </tr>
+              <tr>
+                <td width="154" align="center" background="../images/web.archive.org/web/20101214083938im_/http%EF%B9%95/services.dhyanapeetam.org/images/grey.jpg"><a href="mission.shtml"><strong>&nbsp;Vision
+                  Mission &amp; Beliefs</strong></a></td>
+              </tr>
+              <tr>
+                <td width="154" align="center" background="../images/web.archive.org/web/20101214083938im_/http%EF%B9%95/services.dhyanapeetam.org/images/grey.jpg"><a href="peace.shtml"><strong>Peace Initiatives</strong></a></td>
+              </tr>
+              <tr>
+                <td width="154" align="center">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="154" align="center">&nbsp;<a href="takeaction.asp.html"><img border="0" src="../images/web.archive.org/web/20101214083852im_/http%EF%B9%95/services.dhyanapeetam.org/images/takenew.jpg" width="132" height="65"></a></td>
+              </tr>
+            </table>
+          </td>
+        <td valign="top" width="672">
+          <h3><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font size="4">ERADICATE HUNGER - HELP CREATE A STABLE FAMILY</font></h3>
+              <table border="0" cellspacing="15" cellpadding="3" background="../gif/web.archive.org/web/20101214083410im_/http%EF%B9%95/services.dhyanapeetam.org/images/body_back.gif" width="612" height="116">
+              <tr>
+                <td width="648" height="86"><div align="justify">                  <font size="3" face="garamond"><img src="../images/web.archive.org/web/20101214083326im_/http%EF%B9%95/services.dhyanapeetam.org/images/annadhan/raju.jpg" width="250" height="222" hspace="5" vspace="3" align="left" longdesc="Anna Daan (Food and Nutrition)"/>Raju as this little kid is fondly called by his friends and family visits the Nithyananda anna Mandir during meal time every day. His parents are construction workers living on daily wages barely making ends meet for their family of 6. Weak and undernourished when they first came to the ashram, they soon decided to stay and find a job in the ashram. Today, the whole family enjoys unlimited free food 3 times a day and are maintaining good health.<br/>
+                <br/>
+                The World Food Program estimates that a shocking 963 million people worldwide are undernourished, an almost unfathomable number. Wherever there is poverty there is Hunger all over the world. Urge your colleagues, friends and family to recognize The Right to Food.<br/>
+                <br/>
+                <strong>IN OUR ASHRAMS AROUND THE WORLD WE SERVE AN AVERAGE OF 5000 MEALS PER DAY</strong><br/>
+                <br/>
+                Sponsor feeding for just one day in a year and receive prasad and blessings from Swamiji on that day!</font></br></br>
+				                
+                  <form name="RecurringDonation" method="post" action="recurring_payment.asp.html" id="RecurringDonation">
+                    <table border="0" style="margin-left:50px; background-color:AliceBlue; border:solid 1px gray;" id="table2">
+                      <tr>
+                        <td colspan="2">                          <center>
+                          <font face="garamond"><u><font size="3">Recurring Contribution</font> </u> </font>
+                        </center>        </td>
+      </tr>
+                        
+                      <input name="program" type="hidden" id="Hidden43" value="ANNADAAN RAJU">
+                      <tr>
+                        <td><font size="3" face="garamond">Amount (in US$) </font></td>
+          <td><font size="3" face="garamond">
+            <input name="rc_amount" type="text" id="rc_amount" maxlength="40" value="225">
+            </font></td>
+	      <input name="rc_frequency" type="hidden" id="rc_time" value="Yearly">
+                      </tr>								                
+                      <tr>
+                        <td style="height: 22px"><font size="3" face="garamond">No.of Payments</font></td>
+          <td style="height: 22px">
+            <font size="3" face="garamond">
+              <select name="rc_cycle" id="rc_cycle" style="width:125px;">
+                <!--- <option value="2 Days" selected-->
+                2 Days(For Sachit to Test)
+                </option>
+                --&gt;
+                <option value="Until Cancellation" selected>Until Cancelation</option>
+                <option value="6 Months">6 Months</option>
+                <option value="1 Year">1 Year</option>
+                <option value="2 Years">2 Year</option>
+                <option value="5 Years">5 Year</option>
+              </select>
+              </font></td>
+      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+          <td><font size="3" face="garamond">
+            <input type="image" name="submit" border="0" src="https://web.archive.org/web/20101214090404im_/https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="PayPal - The safer, easier way to pay online">
+            </font></td>
+      </tr>								                
+                    </table>
+                      </form>                  
+                  <font size="3" face="garamond"><br/>
+                  <strong><font color="#000000">SPONSOR A MEAL TODAY</font></strong><br/>
+                  <form name="DonationListPP" id="DonationList" action="innerawakening_usa_reg.asp.html" method="get" language="javascript" id="DonationListPP" onsubmit="return ValidateSubmit(this, 'onSubmit')">
+                  <input name="city" type="hidden" id="Hidden43" value="Bidadi">
+                  <input name="date" type="hidden" id="Hidden44" value="<%=date%>">
+                  <input type="hidden" name="amount" value="0" id="Hidden45">
+                  <input name="city" type="hidden" value="Bidadi"/>
+                  <input name="prgname" type="hidden" value="ANNADAAN RAJU"/>
+                  </font>
+                  <div align="left"><font size="3" face="garamond">
+                      Amount (US Dollars) $:<br/>
+                      <input id="AmountDisp" onblur="javascript:isNumericTst(this.value, 'onblur', document.forms['DonationListPP']);" onkeyup="javascript:isNumericTst(this.value, 'onkeyup', document.forms['DonationListPP']);" style="COLOR: #000000" type="textbox" onchange="javascript:isNumericTst(this.value, 'onchange', document.forms['DonationListPP']);" name="AmountDisp" value="6"/>
+                      </br>
+                  <a href="javascript:ValidateSubmitPP(document.forms['DonationListPP'], 'onClickSubmit');"></br>
+                    <input type="button" onclick="javascript:ValidateSubmitPP(document.forms['DonationListPP'], 'onClickSubmit');" value="     Donate in $ through Paypal     ">
+                  <br>
+                  </a>
+                  </font></div>
+                    <div id="USDDonationListPP" name="USDDonationListPP" align="left"></div>
+                    <font size="3" face="garamond">
+                    </form>				  
+                    <br>
+                    </font>
+                          <font size="3" face="garamond">
+                    </p>
+                    </p>
+                          </font></div></td>
+              </tr>											
+              <!--<tr>
+                <td align="center">Located land for shelter contruction</td>
+              </tr>--><!--<tr>
+                <td align="center">People currently living in temporary tents</td>
+              </tr>-->
+          </table>
+    </tr>
+
+<table align="center">
+     <tr>
+        <td valign="top" background="../gif/web.archive.org/web/20101214083410im_/http%EF%B9%95/services.dhyanapeetam.org/images/body_back.gif" width="613" colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td valign="top" style="padding-left: 8; padding-right: 0; padding-top: 0; padding-bottom: 0" width="605" colspan="2">
+          <img src="../gif/web.archive.org/web/20101214083228im_/http%EF%B9%95/services.dhyanapeetam.org/images/raduga.gif" width="772" height="14" alt=""></p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="padding-left: 8; padding-right: 0; padding-top: 0; padding-bottom: 0" width="605" colspan="2"><table width="706" border="0" cellspacing="1" cellpadding="0">
+          <tr>
+            <td bgcolor="#6A6F73" width="700"><table width="771" border="0" cellspacing="15" cellpadding="0">
+              <tr>
+                <td align="center" class="white" width="737"><a href="index.asp.html">Home</a>   |  <a href="aboutus.shtml">About Us</a> |   <a href="ourprojects.shtml">Our Projects</a>  |  <a href="contact.shtml">Contact information</a></td>
+              </tr>
+              <tr>
+                <td align="center" class="grey" width="737">Dhyanapeeta Charitable Trust, Copyright
+                  2008-2009. Privacy Policy</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://web.archive.org/web/20101214090404/https://ssl." : "https://web.archive.org/web/20101214090404/http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8727387-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</body>
+</html><!--
+     FILE ARCHIVED ON 09:04:04 Dec 14, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:33:49 Mar 13, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 60.323 (3)
+  exclusion.robots.policy: 0.357
+  captures_list: 85.865
+  esindex: 0.014
+  PetaboxLoader3.resolve: 65.95
+  RedisCDXSource: 0.728
+  PetaboxLoader3.datanode: 72.851 (4)
+  CDXLines.iter: 21.096 (3)
+  load_resource: 86.36
+  exclusion.robots: 0.373
+-->

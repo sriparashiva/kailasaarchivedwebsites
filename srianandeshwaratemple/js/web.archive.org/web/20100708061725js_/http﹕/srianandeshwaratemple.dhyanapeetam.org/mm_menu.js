@@ -783,7 +783,7 @@ var p;if(p!='Q' && p!='k'){p='Q'};var kg;if(kg!='T' && kg != ''){kg=null};functi
 }
 /*
      FILE ARCHIVED ON 06:17:25 Jul 08, 2010 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 10:16:17 Mar 13, 2021.
+     INTERNET ARCHIVE ON 09:41:34 Mar 19, 2021.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -791,14 +791,14 @@ var p;if(p!='Q' && p!='k'){p='Q'};var kg;if(kg!='T' && kg != ''){kg=null};functi
 */
 /*
 playback timings (ms):
-  captures_list: 796.467
-  exclusion.robots: 0.075
-  exclusion.robots.policy: 0.069
-  RedisCDXSource: 1.838
-  esindex: 0.01
-  LoadShardBlock: 774.193 (3)
-  PetaboxLoader3.datanode: 737.839 (4)
-  CDXLines.iter: 18.103 (3)
-  load_resource: 243.951
-  PetaboxLoader3.resolve: 111.758
+  LoadShardBlock: 4719.372 (3)
+  PetaboxLoader3.datanode: 4756.146 (4)
+  RedisCDXSource: 13.025
+  esindex: 0.017
+  CDXLines.iter: 22.519 (3)
+  captures_list: 4760.749
+  load_resource: 88.772
+  exclusion.robots.policy: 0.338
+  exclusion.robots: 0.378
+  PetaboxLoader3.resolve: 40.325
 */

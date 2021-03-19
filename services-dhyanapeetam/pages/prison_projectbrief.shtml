@@ -1,11 +1,11 @@
 <html>
 <head><script src="https://archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app39.us.archive.org';v.server_ms=351;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="https://web.archive.org/_static/js/playback.bundle.js?v=bQvHU8mx" charset="utf-8"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app31.us.archive.org';v.server_ms=200;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="https://web.archive.org/_static/js/playback.bundle.js?v=bQvHU8mx" charset="utf-8"></script>
 <script type="text/javascript" src="https://web.archive.org/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://services.dhyanapeetam.org/prison_projectbrief.shtml","20100708070641","https://web.archive.org/","web","/_static/",
-	      "1278572801");
+  __wm.wombat("http://services.dhyanapeetam.org:80/prison_projectbrief.shtml","20100308081917","https://web.archive.org/","web","/_static/",
+	      "1268036357");
 </script>
 <link rel="stylesheet" type="text/css" href="https://web.archive.org/_static/css/banner-styles.css?v=bsmaklHF" />
 <link rel="stylesheet" type="text/css" href="https://web.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
@@ -23,7 +23,7 @@
     <td><a href="index.asp.html"><img border="0" src="../images/web.archive.org/web/20100708062012im_/http%EF%B9%95/services.dhyanapeetam.org/images/banner2.jpg" width="792" height="134" alt="Dhyanapeetam Charitable Trust - Click here to go to Home page"></a></td>
   </tr>
   <tr>
-    <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://web.archive.org/web/20100708070641oe_/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="792" height="122">
+    <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://web.archive.org/web/20100308081917oe_/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="792" height="122">
       <param name="movie" value="~statHeader_latest000011.swf"/>
       <param name="quality" value="high"/>
       <embed src="../web.archive.org/web/20100708064651oe_/http%EF%B9%95/services.dhyanapeetam.org/~statHeader_latest000011.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="792" height="122"></embed>
@@ -41,7 +41,7 @@
           Projects</strong></a></td>
         <td width="82" height="53" align="center" background="../gif/web.archive.org/web/20100708062114im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_3.gif"><a href="takeaction.asp.html"><font size="2" color="#800000"><b>Take
           Action</b></font></a></td>
-        <td width="115" align="center" background="../gif/web.archive.org/web/20100708061708im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_2.gif"><a href="https://web.archive.org/web/20100708070641/http://picasaweb.google.com/NGCI2010"><strong><strong>Photo Gallery</strong></a></td>
+        <td width="115" align="center" background="../gif/web.archive.org/web/20100708061708im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_2.gif"><a href="https://web.archive.org/web/20100308081917/http://picasaweb.google.com/NGCI2010"><strong><strong>Photo Gallery</strong></a></td>
         <td width="127" height="53" align="center" background="../gif/web.archive.org/web/20100708061841im_/http%EF%B9%95/services.dhyanapeetam.org/images/menu_back_5.gif"><a href="contact.shtml"><strong>Contact information</strong></a></td>
         <td height="53" bgcolor="#AFBF58">&nbsp;</td>
           </tr>
@@ -125,7 +125,7 @@
       </tr>
       <tr>
         <td valign="top" style="padding-left: 8; padding-right: 0; padding-top: 0; padding-bottom: 0" width="605" colspan="2">
-          <img src="https://web.archive.org/web/20100708070641im_/http://services.dhyanapeetam.org/images/raduga.gif" width="772" height="14" alt=""></p>
+          <img src="../gif/web.archive.org/web/20100708061741im_/http%EF%B9%95/services.dhyanapeetam.org/images/raduga.gif" width="772" height="14" alt=""></p>
         </td>
       </tr>
       <tr>
@@ -145,7 +145,7 @@
       </tr>
 </table>
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://web.archive.org/web/20100708070641/https://ssl." : "https://web.archive.org/web/20100708070641/http://www.");
+var gaJsHost = (("https:" == document.location.protocol) ? "https://web.archive.org/web/20100308081917/https://ssl." : "https://web.archive.org/web/20100308081917/http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
@@ -156,8 +156,8 @@ pageTracker._trackPageview();
 </script>
 </body>
 </html><!--
-     FILE ARCHIVED ON 07:06:41 Jul 08, 2010 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 10:32:32 Mar 13, 2021.
+     FILE ARCHIVED ON 08:19:17 Mar 08, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:19:42 Mar 19, 2021.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -165,14 +165,14 @@ pageTracker._trackPageview();
 -->
 <!--
 playback timings (ms):
-  captures_list: 149.137
-  PetaboxLoader3.datanode: 131.309 (4)
-  LoadShardBlock: 103.597 (3)
-  RedisCDXSource: 16.925
-  PetaboxLoader3.resolve: 133.566
-  CDXLines.iter: 24.545 (3)
-  exclusion.robots: 0.367
-  exclusion.robots.policy: 0.351
-  load_resource: 186.309
-  esindex: 0.016
+  RedisCDXSource: 0.561
+  esindex: 0.01
+  exclusion.robots: 0.239
+  captures_list: 110.551
+  exclusion.robots.policy: 0.227
+  PetaboxLoader3.resolve: 70.69 (2)
+  load_resource: 79.032
+  CDXLines.iter: 26.042 (3)
+  LoadShardBlock: 79.211 (3)
+  PetaboxLoader3.datanode: 65.502 (4)
 -->

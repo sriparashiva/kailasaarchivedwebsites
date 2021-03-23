@@ -1,0 +1,70 @@
+#lbOverlay {
+	Z-INDEX: 100; LEFT: 0px; WIDTH: 100%; CURSOR: pointer; POSITION: absolute; BACKGROUND-COLOR: #000
+}
+#lbCenter {
+	Z-INDEX: 101; LEFT: 50%; OVERFLOW: hidden; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+#lbBottomContainer {
+	Z-INDEX: 101; LEFT: 50%; OVERFLOW: hidden; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+.lbLoading {
+	BACKGROUND: url(https://web.archive.org/web/20100613063204im_/http://dhyanapeetamtn.org/flash/loading.gif) #fff no-repeat center 50%
+}
+#lbImage {
+	BORDER-RIGHT: #fff 10px solid; BORDER-TOP: #fff 10px solid; BORDER-LEFT: #fff 10px solid; BORDER-BOTTOM: #fff 10px solid; BACKGROUND-REPEAT: no-repeat
+}
+#lbPrevLink {
+	DISPLAY: block; WIDTH: 50%; POSITION: absolute; TOP: 0px; outline: none
+}
+#lbNextLink {
+	DISPLAY: block; WIDTH: 50%; POSITION: absolute; TOP: 0px; outline: none
+}
+#lbPrevLink {
+	LEFT: 0px
+}
+#lbPrevLink:hover {
+	BACKGROUND: url(https://web.archive.org/web/20100613063204im_/http://dhyanapeetamtn.org/flash/prevlabel.gif) no-repeat 0% 15%
+}
+#lbNextLink {
+	RIGHT: 0px
+}
+#lbNextLink:hover {
+	BACKGROUND: url(https://web.archive.org/web/20100613063204im_/http://dhyanapeetamtn.org/flash/nextlabel.gif) no-repeat 100% 15%
+}
+#lbBottom {
+	BORDER-RIGHT: #fff 10px solid; BORDER-TOP: #fff 10px; FONT-SIZE: 10px; BORDER-LEFT: #fff 10px solid; COLOR: #666; LINE-HEIGHT: 1.4em; BORDER-BOTTOM: #fff 10px solid; FONT-FAMILY: Verdana, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+#lbCloseLink {
+	DISPLAY: block; BACKGROUND: url(https://web.archive.org/web/20100613063204im_/http://dhyanapeetamtn.org/flash/closelabel.gif) no-repeat center 50%; FLOAT: right; MARGIN: 5px 0px; WIDTH: 66px; HEIGHT: 22px
+}
+#lbCaption {
+	MARGIN-RIGHT: 71px
+}
+#lbNumber {
+	MARGIN-RIGHT: 71px
+}
+#lbCaption {
+	FONT-WEIGHT: bold
+}
+
+/*
+     FILE ARCHIVED ON 06:32:04 Jun 13, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:25:23 Mar 13, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.262
+  captures_list: 241.515
+  exclusion.robots: 0.277
+  RedisCDXSource: 10.958
+  PetaboxLoader3.resolve: 60.285
+  esindex: 0.015
+  CDXLines.iter: 23.753 (3)
+  LoadShardBlock: 201.973 (3)
+  PetaboxLoader3.datanode: 281.124 (4)
+  load_resource: 152.492
+*/

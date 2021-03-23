@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Contact Us</title>
+<meta name="google-site-verification" content="zgv5clQSnIvdVHq4BTZt1mKOtuwsKbCuT2cOa-Ewjvs"/>
+		<meta name="verify-v1" content="18ugOS0pZ31dLTPwidtliW2lXn70xgUhXsWcPWKawnY=">
+		<meta name="verify-v1" content="yHLBU3HicHB7TIBvkSVESg72H81pTK+UM+6J2z46MKc=">
+<meta name="description" content="Official website of Nithyananda Dhyanapeetam">
+<meta name="keywords" content="meditation, yoga, nithya yoga, social services, free services, medical camp, health, free food distribution, anna dhan, healing, youth empowerment, education, health, world peace, vedic culture">
+<meta name="keywords" content="dhyanapeetam,nithyananda,swamiji,bidadi,meditation,chakra,healing,enlightenment,thiruvannamalai,swamisworld,nithyanandapuri,bliss,guru,master,paramahamsa,asp,nsp,ssp,kalagopanahalli,flowering,spirituality,religion,sanatanadharma,dharma,shiva,dakshinamurthy,muneeshwaran,ananda,gnani,sahasrara,muladhara,vishudhi,ajna,anahatha,swadhisthana">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link href="../css/web.archive.org/web/20100613062125cs_/http%EF%B9%95/dhyanapeetamtn.org/style2010.css" rel="stylesheet" type="text/css"/>
+<script src="AC_RunActiveContent.js.html" type="text/javascript"></script>
+<script type="text/javascript">
+
+          
+
+$(document).ready(function() {		
+	
+	//Execute the slideShow, set 4 seconds for each images
+	slideShow(4000);
+
+});
+
+function slideShow(speed) {
+
+
+	//append a LI item to the UL list for displaying caption
+	$('ul.slideshow').append('<li id="slideshow-caption" class="caption"><div class="slideshow-caption-container"><h3></h3><p></p></div></li>');
+
+	//Set the opacity of all images to 0
+	$('ul.slideshow li').css({opacity: 0.0});
+	
+	//Get the first image and display it (set it to full opacity)
+	$('ul.slideshow li:first').css({opacity: 1.0});
+	
+	//Get the caption of the first image from REL attribute and display it
+	$('#slideshow-caption h3').html($('ul.slideshow a:first').find('img').attr('title'));
+	$('#slideshow-caption p').html($('ul.slideshow a:first').find('img').attr('alt'));
+		
+	//Display the caption
+	$('#slideshow-caption').css({opacity: 0.7, bottom:0});
+	
+	//Call the gallery function to run the slideshow	
+	var timer = setInterval('gallery()',speed);
+	
+	//pause the slideshow on mouse over
+	$('ul.slideshow').hover(
+		function () {
+			clearInterval(timer);	
+		}, 	
+		function () {
+			timer = setInterval('gallery()',speed);			
+		}
+	);
+	
+}
+
+function gallery() {
+
+
+	//if no IMGs have the show class, grab the first image
+	var current = ($('ul.slideshow li.show')?  $('ul.slideshow li.show') : $('#ul.slideshow li:first'));
+
+	//Get next image, if it reached the end of the slideshow, rotate it back to the first image
+	var next = ((current.next().length) ? ((current.next().attr('id') == 'slideshow-caption')? $('ul.slideshow li:first') :current.next()) : $('ul.slideshow li:first'));
+		
+	//Get next image caption
+	var title = next.find('img').attr('title');	
+	var desc = next.find('img').attr('alt');	
+
+	//Set the fade in effect for the next image, show class has higher z-index
+	next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
+	
+	//Hide the caption first, and then set and display the caption
+	$('#slideshow-caption').animate({bottom:-70}, 300, function () {
+			//Display the content
+			$('#slideshow-caption h3').html(title);
+			$('#slideshow-caption p').html(desc);				
+			$('#slideshow-caption').animate({bottom:0}, 500);	
+	});		
+
+	//Hide the current image
+	current.animate({opacity: 0.0}, 1000).removeClass('show');
+
+}
+</script>
+<style type="text/css">body {
+	font-family:arial;	
+	font-size:12px;
+}
+
+ul.slideshow {
+	list-style:none;
+	width:450px;
+	height:200px;
+	overflow:hidden;
+	position:relative;
+	margin:0;
+	padding:0;
+	
+}	
+
+ul.slideshow li {
+	position:absolute;
+	left:0;
+	right:0;
+}
+
+ul.slideshow li.show {
+	z-index:500;	
+}
+
+ul img {
+	border:none;	
+}
+
+
+#slideshow-caption {
+	width:450px;
+	height:70px;
+	position:absolute;
+	bottom:0;
+	left:0;	
+	color:#fff;
+	background:#000;
+	z-index:500;
+}
+
+#slideshow-caption .slideshow-caption-container {
+	padding:5px 10px;		
+	z-index:1000;
+}
+
+#slideshow-caption h3 {
+	margin:0;
+	padding:0;	
+	font-size:14px;
+}
+
+#slideshow-caption p {
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+
+</style>
+<script type="text/javascript" src="../js/web.archive.org/web/20100613061735js_/http%EF%B9%95/dhyanapeetamtn.org/js/jquery.js"></script>
+<script type="text/javascript" src="../js/web.archive.org/web/20100613061749js_/http%EF%B9%95/dhyanapeetamtn.org/js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+
+<style type="text/css">#slider { margin:0 auto; padding:0; list-style:none; width:920px; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:920px; overflow:hidden; padding:0; margin:0 auto; }
+p#controls { margin:0; position:relative; }
+#prevBtn,
+#nextBtn { display:block; margin:0; overflow:hidden; width:15px; height:30px; position:absolute; left:5px; top:-135px; }
+#nextBtn { left:952px; }
+#prevBtn a { display:block; width:15px; height:30px; background:url(../gif/web.archive.org/web/20100613061723im_/http%EF%B9%95/dhyanapeetamtn.org/images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:15px; height:30px; background:url(../gif/web.archive.org/web/20100613062043im_/http%EF%B9%95/dhyanapeetamtn.org/images/r_arrow.gif) no-repeat 0 0; }
+</style>
+</head>
+<body>
+		
+<div class="main">
+  <div class="header">
+    <div class="block_header">
+    
+      <div class="clr">\</div>
+      <div>
+        <div align="left">
+          <table width="991" border="0">
+            <tr>
+              <td><img src="../images/web.archive.org/web/20100613062016im_/http%EF%B9%95/dhyanapeetamtn.org/images/banner1.jpg" width="982" height="266"/></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="block_header_form">
+     <div style="float:right;">
+       <div class="menu">
+         <ul>    
+           <li><a href="careers2010.html"><span>Careers</span></a></li>
+           <li><a href="contact2010.html"><span>Contact us</span></a></li>
+           <img src="../images/web.archive.org/web/20100613062029im_/http%EF%B9%95/dhyanapeetamtn.org/images/spaced.jpg" alt="" width="358" height="36"/>
+         </ul>
+         <ul>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+         </ul>
+         <ul>
+           <li></li>
+           <li><a href="https://web.archive.org/web/20100819015256/chttp://www.youtube.com/dhyanapeetamtn"><span>Videos</span></a></li>
+         </ul> 
+         <ul>
+           <li><a href="windows1.html" class="active"><span>Home</span></a></li>
+           <li><a href="founder2010.html"><span>Founder</span></a></li>                       
+           <li><a href="../../services-dhyanapeetam/pages/index.html"><span>Services</span></a></li>
+           <li><a href="../../srianandeshwaratemple/pages/Index.html"><span>Worship</span></a></li>
+           <li><a href="centres2010.html"><span>Centres</span></a></li>
+         </ul>
+       </div>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+      
+    </div>
+  </div>
+    <div class="body">
+      <div class="body_resize">
+      <div class="left1">
+      <h3 align="left">&nbsp;</h3>
+      <h3 align="center">&nbsp;</h3>
+<h3 align="center">Centres Address will be available shortly
+</h3>
+      <p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<h3>
+  <!-- ++Begin Video Bar Wizard Generated Code++ -->
+  <!--
+  // Created with a Google AJAX Search Wizard
+  // http://code.google.com/apis/ajaxsearch/wizards.html
+  -->
+  
+  <!--
+  // The Following div element will end up holding the actual videobar.
+  // You can place this anywhere on your page.
+  -->
+</h3>
+      </div>
+      <div class="clr"></div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+</div>
+    <div class="footer">
+    <div class="footer_resize"><br/>
+      <table width="978" border="0">
+        <tr>
+          <td width="323"><span class="webtopicswhite">Official Websites</span></td>
+          <td width="323"><span class="webtopicswhite">Other Ashrams</span></td>
+          <td width="323"><span class="webtopicswhite">Nithyananda Vedic Temples</span></td>
+        </tr>
+        <tr>
+          <td><font size="-2"><select name="jumpMenu" class="response" id="jumpMenu" onchange="MM_jumpMenu('parent',this,1)">
+             <option value="#">-------------------------Select-------------------------</option>
+            <option value="http://www.dhyanapeetam.org">Nithyananda Dhyanapeetam</option>
+            <option value="http://www.lifeblissfoundation.org">Life Bliss Foundation</option>
+            <option value="http://nithyanandavidyalaya.org/main.html">Nithyananda Vidhyalaya</option>
+          </select></font></td>
+          <td> <select name="jumpMenu2" class="response" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,1)">
+             <option value="#">-------------------------Select-------------------------</option>
+            <option value="http://www.mynithyananda.com">Nithyananda Malaysia</option>
+            <option value="http://www.lifeblissprogram.org/singapore/">Nithyananda Singapore</option>
+            <option value="http://www.dhyanapeetamtn.org">Nithyananda Tamilnadu</option>
+            <option value="http://www.dhyanapeetam.org/Web/ap">Nithyananda Andhra Pradesh</option>
+            <option value="http://www.dhyanapeetam.org/Web/Spanish">Nithyananda Spain</option>
+            <option value="http://www.nithyananda.org/French">Nithyananda France</option>
+            <option value="http://www.lifeblisscanada.org">Nithyananda Canada</option>
+            <option value="http://www.nyf.in">Nithyananda Youth Foundation TN</option>
+            <option value="http://www.mynithyananda.com/Youth/Homepage.html">Nithyananda Youth Foundation Malaysia</option>
+          </select></td>
+          <td> <select name="jumpMenu3" class="response" id="jumpMenu3" onchange="MM_jumpMenu('parent',this,1)">
+            <option value="#">-------------------------Select-------------------------</option>
+            <option value="http://www.nithyanandavedictemple.org">Nithyananda Vedic Temple, Montclair</option>
+            <option value="http://www.vedictempleseattle.org">Nithyananda Vedic Temple, Seattle</option>
+            <option value="http://www.vedictempleohio.org">Nithyananda Vedic Temple, Ohio</option>
+            <option value="http://srianandeshwaratemple.dhyanapeetam.org">Nithyananda Vedic Temple Bidadi</option>
+            <option value="http://www.vedictempleokc.org">Nithyananda Vedic Temple, Oklahoma City</option>
+          </select></td>
+        </tr>
+      </table>
+      <table width="978" border="0">
+        <tr>
+          <td width="323"><span class="webtopicswhite">eShopping Websites</span></td>
+          <td width="323"><span class="webtopicswhite">Yoga &amp; Meditation</span></td>
+          <td width="323"><span class="webtopicswhite">Event Sites &amp; Blogspots</span></td>
+        </tr>
+        <tr>
+          <td><font size="-2">
+            <select name="jumpMenu4" class="response" id="jumpMenu4" onchange="MM_jumpMenu('parent',this,1)">
+              <option value="#">-------------------------Select-------------------------</option>
+                  <option value="http://www.lifeblissgalleria.com">Life Bliss Galleria, USA</option>
+                  <option value="http://www.lifeblissgalleria.info">Life Bliss Galleria, Edownloads</option>
+                  <option value="http://www.nithyanandagalleria.com">Nithyananda Galleria, India</option>
+              <option value="http://www.nithyanandasacredarts.com">Nithyananda Sacredarts</option>
+            </select>
+          </font></td>
+          <td><select name="jumpMenu4" class="response" id="jumpMenu5" onchange="MM_jumpMenu('parent',this,1)">
+            <option value="#">-------------------------Select-------------------------</option>
+                             <option value="http://www.nithyayoga.org">Nithya Yoga</option>
+              <option value="http://www.lifeblissmeditation.com">Life Bliss Meditation</option>
+          </select></td>
+          <td><select name="jumpMenu4" class="response" id="jumpMenu6" onchange="MM_jumpMenu('parent',this,1)">
+            <option value="#">-------------------------Select----------------------------</option>
+                  <option value="http://www.yogam4you.org">Yogam4you</option>
+                  <option value="http://www.usakumbhamela.net/">USA Kumbamela</option>
+                  <option value="http://www.NithyaEvents.Blogspot.com">Nithyananda Events Blogspot</option>
+              <option value="http://nithyatube.blogspot.com/">Nithyananda Tubes</option>
+          </select></td>
+        </tr>
+      </table>
+<br/>
+      <br/>
+      <p class="leftt"> 2006 ® Dhyanapeetam.org. All rights reserved.<br/>
+        <a href="#">Terms of Use</a> | <a href="PrivacyPolicy.asp.html">Privacy Policy</a></p>
+      <p class="rightt"><a href="contact2010.html">Any Question? Mail the Webmaster.</a></p>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+</body>
+</html><!--
+     FILE ARCHIVED ON 01:52:56 Aug 19, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:49:40 Mar 13, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.332
+  captures_list: 53.605
+  esindex: 0.015
+  CDXLines.iter: 20.558 (3)
+  PetaboxLoader3.resolve: 151.554
+  LoadShardBlock: 28.411 (3)
+  load_resource: 193.028
+  exclusion.robots.policy: 0.318
+  PetaboxLoader3.datanode: 54.103 (4)
+  RedisCDXSource: 0.782
+-->

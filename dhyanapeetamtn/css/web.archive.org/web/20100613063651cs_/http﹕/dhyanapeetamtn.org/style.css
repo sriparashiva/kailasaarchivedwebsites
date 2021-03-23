@@ -1,0 +1,201 @@
+body{
+	margin:0;
+	padding:0;
+}
+.body{
+	background-color:#FEFEFE;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#6C6C6C;
+}
+img{
+	border:none;
+	padding:0;
+	margin:0;
+}
+.main{
+	width:706px;
+	text-align:left;
+}
+.top{
+	position:relative;
+	float:left;
+	background-color: #B7883A;
+	border: 1;
+	width: 700;
+	border-bottom-color: #FFFFFF;
+}
+.content{
+	clear:left;
+	position:relative;
+	float:left;
+	border:5;
+	width:710;
+	background-image:url(../../../../../../gif/web.archive.org/web/20100613104931im_/http%EF%B9%95/dhyanapeetamtn.org/images/h_bg.gif);
+	background-repeat:repeat-y;
+	background-color: #FFFFFF;
+}
+.menu{
+	background-image:url(../../../../../../gif/web.archive.org/web/20100613104944im_/http%EF%B9%95/dhyanapeetamtn.org/images/menu_bg.gif);
+	background-repeat:repeat-x;
+	height:41px;
+}
+.left{
+	clear:left;
+	position:relative;
+	float:left;
+	width:490px;
+}
+.right{
+	position:relative;
+	float:left;
+	width:216px;
+}
+.right_img{
+	clear:left;
+	position:relative;
+	float:left;
+	padding:10px 10px 0 20px;
+	width:55px;
+}
+.right_text{
+	position:relative;
+	float:left;
+	padding:10px 15px 10px 0px;
+	width:115px;
+}
+.right_text span, .left_t2 span, .left_t4 span{
+	color:#AE0202;
+	background-color:inherit;
+}
+.d_bg{
+	clear:left;
+	background-image:url(../../../../../../gif/web.archive.org/web/20100613104904im_/http%EF%B9%95/dhyanapeetamtn.org/images/d_bg.gif);
+	background-repeat:repeat-x;
+	width:183px;
+	height:1px;
+	margin-left:20px;
+	padding:0;
+}
+.r_m2{
+	padding:15px 0 0 20px;
+}
+.bottom{
+	clear:left;
+	position:relative;
+	float:left;
+	border-bottom:3px solid #FFFFFF;
+	border-top:10px solid #FFFFFF;
+}
+.footer{
+	clear:left;
+	position:relative;
+	float:left;
+	height:35px;
+	background-image:url(../../../../../../gif/web.archive.org/web/20100613104917im_/http%EF%B9%95/dhyanapeetamtn.org/images/footer_bg.gif);
+	background-repeat:repeat-x;
+	width:710px;
+	text-align:center;
+	color:#CDCBC3;
+	background-color:inherit;
+	padding-top:5px;
+}
+.footer a{
+	color:#CDCBC3;
+	background-color:inherit;
+}
+.footer a:hover{
+	text-decoration:none;
+}
+.left_img1{
+	position:relative;
+	float:left;
+	width:101px;
+	padding:9px 11px 10px 20px;
+}
+.left_text1{
+	position:relative;
+	float:left;
+	width:330px;
+	padding-top: 0px;
+	padding-right: 28px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.txt1{
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+}
+.left_text1 a{
+	color:#AE0202;
+	background-color:inherit;
+}
+.left_text1 a:hover{
+	text-decoration:none;
+}
+.left_t1{
+	clear:left;
+	position:relative;
+	float:left;
+	width:71px;
+	padding:0 10px 0 20px;
+}
+.left_t2{
+	position:relative;
+	float:left;
+	width:139px;
+}
+.left_t3{
+	position:relative;
+	float:left;
+	width:71px;
+	padding:0 10px 0 15px;
+}
+.left_t4{
+	position:relative;
+	float:left;
+	width:132px;
+}
+.txt2{
+	padding:2px 0 5px 0;
+}
+.d_bg1{
+	clear:left;
+	background-image:url(../../../../../../gif/web.archive.org/web/20100613104904im_/http%EF%B9%95/dhyanapeetamtn.org/images/d_bg.gif);
+	background-repeat:repeat-x;
+	width:450px;
+	height:1px;
+	margin-left:20px;
+	margin-bottom:5px;
+	padding:0;
+}
+.q1{
+	padding:0 5px 1px 0;
+}
+.new1 {
+	font-family: "Times New Roman";
+	font-size: 13px;
+}
+
+/*
+     FILE ARCHIVED ON 06:36:51 Jun 13, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:24:40 Mar 13, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.13
+  CDXLines.iter: 24.866 (3)
+  RedisCDXSource: 19.211
+  captures_list: 201.174
+  esindex: 0.012
+  LoadShardBlock: 152.861 (3)
+  PetaboxLoader3.datanode: 148.353 (4)
+  exclusion.robots: 0.141
+  load_resource: 26.545
+*/

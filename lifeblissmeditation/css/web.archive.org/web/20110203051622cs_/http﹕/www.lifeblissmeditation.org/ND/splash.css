@@ -1,0 +1,97 @@
+A {
+	FONT: 12px Arial, Helvetica, sans-serif; COLOR: #971313; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.splashbackground {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-COLOR: #ffffff
+}
+.splashbackgroundtable {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(https://web.archive.org/web/20110203051627im_/http://www.lifeblissmeditation.org/chopra/images/splash/background.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.SeparatorPanel {
+	VERTICAL-ALIGN: top; HEIGHT: 80%
+}
+.vertdiv {
+	BACKGROUND-COLOR: #cccccc
+}
+.VerticalRule {
+	WIDTH: 1px; HEIGHT: 80%
+}
+.content-item-header {
+	FONT: bold 11px Arial, Helvetica, sans-serif; COLOR: #143d71; TEXT-DECORATION: none
+}
+.content-item-header:hover {
+	TEXT-DECORATION: underline
+}
+.content-item-bodyregular {
+	FONT: 12px Arial, Helvetica, sans-serif; COLOR: #000000; TEXT-DECORATION: none
+}
+.content-item-arrow {
+	FONT-SIZE: 15px; COLOR: #971313; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: PrioriSanRegularSC, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.content-item-body {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.content-item-bottom {
+	FONT-SIZE: 12px; COLOR: #ab5b2d; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.content-item-footer {
+	FONT: bold 10px Arial, Helvetica, sans-serif; COLOR: #4d4d4d; TEXT-DECORATION: none
+}
+.content-item-footer-header {
+	FONT: bold 12px Arial, Helvetica, sans-serif; COLOR: #999999; TEXT-DECORATION: none
+}
+.content-item-footer-body {
+	FONT-SIZE: 12px; COLOR: #999999; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.content-item-footer-link {
+	FONT-SIZE: 10px; COLOR: #999999; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.content-item-copyright {
+	FONT-SIZE: 10px; COLOR: #cccd99; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.cal {
+	OVERFLOW-Y: scroll; SCROLLBAR-FACE-COLOR: #dbe0bd; SCROLLBAR-HIGHLIGHT-COLOR: #cccccc; OVERFLOW: auto; SCROLLBAR-SHADOW-COLOR: #cccccc; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #fffdea; SCROLLBAR-DARKSHADOW-COLOR: #cccccc; HEIGHT: 173px
+}
+.editover {
+	FILTER: progid:DXImageTransform.Microsoft.Glow(color=#ffffff,strength=2); LEFT: -17px; CURSOR: hand; POSITION: absolute; TOP: -5px
+}
+.edit {
+	CURSOR: hand
+}
+.toolbar {
+	BORDER-BOTTOM: black 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #d4d0c8
+}
+.toolbarbutton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 11px; BORDER-LEFT: black 1px solid; COLOR: #000000; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #bbbbbb
+}
+.toolbarbutton A:hover {
+	COLOR: #b40101; TEXT-DECORATION: none
+}
+.toolbartext {
+	FONT-SIZE: 11px; COLOR: #000000
+}
+
+/*
+     FILE ARCHIVED ON 05:16:22 Feb 03, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:15:45 Mar 21, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.117
+  CDXLines.iter: 19.749 (3)
+  RedisCDXSource: 16.972
+  captures_list: 148.927
+  esindex: 0.014
+  LoadShardBlock: 108.74 (3)
+  PetaboxLoader3.resolve: 38.233
+  PetaboxLoader3.datanode: 95.139 (4)
+  exclusion.robots: 0.127
+  load_resource: 51.276
+*/

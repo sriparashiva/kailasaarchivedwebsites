@@ -1,0 +1,643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Nithyananda Dhyanapeetam - TamilNadu</title>
+<meta name="google-site-verification" content="zgv5clQSnIvdVHq4BTZt1mKOtuwsKbCuT2cOa-Ewjvs"/>
+		<meta name="verify-v1" content="18ugOS0pZ31dLTPwidtliW2lXn70xgUhXsWcPWKawnY=">
+		<meta name="verify-v1" content="yHLBU3HicHB7TIBvkSVESg72H81pTK+UM+6J2z46MKc=">
+<meta name="description" content="Official website of Nithyananda Dhyanapeetam">
+<meta name="keywords" content="meditation, yoga, nithya yoga, social services, free services, medical camp, health, free food distribution, anna dhan, healing, youth empowerment, education, health, world peace, vedic culture">
+<meta name="keywords" content="dhyanapeetam,nithyananda,swamiji,bidadi,meditation,chakra,healing,enlightenment,thiruvannamalai,swamisworld,nithyanandapuri,bliss,guru,master,paramahamsa,asp,nsp,ssp,kalagopanahalli,flowering,spirituality,religion,sanatanadharma,dharma,shiva,dakshinamurthy,muneeshwaran,ananda,gnani,sahasrara,muladhara,vishudhi,ajna,anahatha,swadhisthana">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link href="../css/web.archive.org/web/20100613062125cs_/http%EF%B9%95/dhyanapeetamtn.org/style2010.css" rel="stylesheet" type="text/css"/>
+<script src="AC_RunActiveContent.js.html" type="text/javascript"></script>
+<script type="text/javascript">
+
+          
+
+$(document).ready(function() {		
+	
+	//Execute the slideShow, set 4 seconds for each images
+	slideShow(4000);
+
+});
+
+function slideShow(speed) {
+
+
+	//append a LI item to the UL list for displaying caption
+	$('ul.slideshow').append('<li id="slideshow-caption" class="caption"><div class="slideshow-caption-container"><h3></h3><p></p></div></li>');
+
+	//Set the opacity of all images to 0
+	$('ul.slideshow li').css({opacity: 0.0});
+	
+	//Get the first image and display it (set it to full opacity)
+	$('ul.slideshow li:first').css({opacity: 1.0});
+	
+	//Get the caption of the first image from REL attribute and display it
+	$('#slideshow-caption h3').html($('ul.slideshow a:first').find('img').attr('title'));
+	$('#slideshow-caption p').html($('ul.slideshow a:first').find('img').attr('alt'));
+		
+	//Display the caption
+	$('#slideshow-caption').css({opacity: 0.7, bottom:0});
+	
+	//Call the gallery function to run the slideshow	
+	var timer = setInterval('gallery()',speed);
+	
+	//pause the slideshow on mouse over
+	$('ul.slideshow').hover(
+		function () {
+			clearInterval(timer);	
+		}, 	
+		function () {
+			timer = setInterval('gallery()',speed);			
+		}
+	);
+	
+}
+
+function gallery() {
+
+
+	//if no IMGs have the show class, grab the first image
+	var current = ($('ul.slideshow li.show')?  $('ul.slideshow li.show') : $('#ul.slideshow li:first'));
+
+	//Get next image, if it reached the end of the slideshow, rotate it back to the first image
+	var next = ((current.next().length) ? ((current.next().attr('id') == 'slideshow-caption')? $('ul.slideshow li:first') :current.next()) : $('ul.slideshow li:first'));
+		
+	//Get next image caption
+	var title = next.find('img').attr('title');	
+	var desc = next.find('img').attr('alt');	
+
+	//Set the fade in effect for the next image, show class has higher z-index
+	next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
+	
+	//Hide the caption first, and then set and display the caption
+	$('#slideshow-caption').animate({bottom:-70}, 300, function () {
+			//Display the content
+			$('#slideshow-caption h3').html(title);
+			$('#slideshow-caption p').html(desc);				
+			$('#slideshow-caption').animate({bottom:0}, 500);	
+	});		
+
+	//Hide the current image
+	current.animate({opacity: 0.0}, 1000).removeClass('show');
+
+}
+</script>
+<style type="text/css">body {
+	font-family:arial;	
+	font-size:12px;
+}
+
+ul.slideshow {
+	list-style:none;
+	width:450px;
+	height:200px;
+	overflow:hidden;
+	position:relative;
+	margin:0;
+	padding:0;
+	
+}	
+
+ul.slideshow li {
+	position:absolute;
+	left:0;
+	right:0;
+}
+
+ul.slideshow li.show {
+	z-index:500;	
+}
+
+ul img {
+	border:none;	
+}
+
+
+#slideshow-caption {
+	width:450px;
+	height:70px;
+	position:absolute;
+	bottom:0;
+	left:0;	
+	color:#fff;
+	background:#000;
+	z-index:500;
+}
+
+#slideshow-caption .slideshow-caption-container {
+	padding:5px 10px;		
+	z-index:1000;
+}
+
+#slideshow-caption h3 {
+	margin:0;
+	padding:0;	
+	font-size:14px;
+}
+
+#slideshow-caption p {
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+
+</style>
+<script type="text/javascript" src="../js/web.archive.org/web/20100613061735js_/http%EF%B9%95/dhyanapeetamtn.org/js/jquery.js"></script>
+<script type="text/javascript" src="../js/web.archive.org/web/20100613061749js_/http%EF%B9%95/dhyanapeetamtn.org/js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+
+<style type="text/css">#slider { margin:0 auto; padding:0; list-style:none; width:920px; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:920px; overflow:hidden; padding:0; margin:0 auto; }
+p#controls { margin:0; position:relative; }
+#prevBtn,
+#nextBtn { display:block; margin:0; overflow:hidden; width:15px; height:30px; position:absolute; left:5px; top:-135px; }
+#nextBtn { left:952px; }
+#prevBtn a { display:block; width:15px; height:30px; background:url(../gif/web.archive.org/web/20100613061723im_/http%EF%B9%95/dhyanapeetamtn.org/images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:15px; height:30px; background:url(../gif/web.archive.org/web/20100613062043im_/http%EF%B9%95/dhyanapeetamtn.org/images/r_arrow.gif) no-repeat 0 0; }
+</style>
+<style type="text/css">/*Example CSS for the two demo tickers*/
+
+#domticker{
+width: 300px;
+height: 100px;
+border: 1px dashed #F93;
+padding: 5px;
+background-color: #FFFFff;
+}
+
+#domticker div{ /*IE6 bug fix when text is bold and fade effect (alpha filter) is enabled. Style inner DIV with same color as outer DIV*/
+background-color: #FFFFff;
+}
+
+#domticker a{
+font-weight: bold;
+}
+
+#domticker2{
+width: 350px;
+height: 1.2em;
+border: 1px solid black;
+padding: 3px;
+}
+
+#domticker2 a{
+text-decoration: none;
+}
+
+.someclass{ //class to apply to your scroller(s) if desired
+}
+
+</style>
+
+<script type="text/javascript">
+
+/*Example message arrays for the two demo scrollers*/
+
+var tickercontent=new Array()
+tickercontent[0]='<center> <p class="green">SARVA DARSHAN</p>Date: At the Temple between 8am & 9 am IST in the Morning whenever Swamiji is in Ashram<br /> Contact : 097422 03311, 080 27202084<br /></center>'
+tickercontent[1]='<center> <p class="green">Bakthi Spurana Programme(Tamil)</p>Date: 6th to 9th February 2010.<br /> Venue: Nithyananda Dhyanapeetam, Bidadi<br />Contact : 097422 03311, 080 27202084<br /></center>'
+tickercontent[2]='<center> <p class="green">Healers Initiation(Tamil)</p>Date: 10th &amp; 11th February 2010.<br /> Venue: Nithyananda Dhyanapeetam, Bidadi<br />Contact : 097422 03311, 080 27202084<br /></center>'
+          
+
+
+var tickercontent2=new Array()
+tickercontent2[0]='<a href="https://web.archive.org/web/20101019061854/http://www.news.com">News.com: Technology and business reports</a>'
+tickercontent2[1]='<a href="https://web.archive.org/web/20101019061854/http://www.cnn.com">CNN: Headline and breaking news 24/7</a>'
+tickercontent2[2]='<a href="https://web.archive.org/web/20101019061854/http://news.bbc.co.uk">BBC News: UK and international news</a>'
+
+</script>
+
+
+<script type="text/javascript">
+
+/***********************************************
+* DHTML Ticker script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+function domticker(content, divId, divClass, delay, fadeornot){
+this.content=content
+this.tickerid=divId //ID of master ticker div. Message is contained inside first child of ticker div
+this.delay=delay //Delay between msg change, in miliseconds.
+this.mouseoverBol=0 //Boolean to indicate whether mouse is currently over ticker (and pause it if it is)
+this.pointer=1
+this.opacitystring=(typeof fadeornot!="undefined")? "width: 100%; filter:progid:DXImageTransform.Microsoft.alpha(opacity=100); -moz-opacity: 1" : ""
+if (this.opacitystring!="") this.delay+=500 //add 1/2 sec to account for fade effect, if enabled
+this.opacitysetting=0.2 //Opacity value when reset. Internal use.
+document.write('<div id="'+divId+'" class="'+divClass+'"><div style="'+this.opacitystring+'">'+content[0]+'</div></div>')
+var instanceOfTicker=this
+setTimeout(function(){instanceOfTicker.initialize()}, delay)
+}
+
+domticker.prototype.initialize=function(){
+var instanceOfTicker=this
+this.contentdiv=document.getElementById(this.tickerid).firstChild //div of inner content that holds the messages
+document.getElementById(this.tickerid).onmouseover=function(){instanceOfTicker.mouseoverBol=1}
+document.getElementById(this.tickerid).onmouseout=function(){instanceOfTicker.mouseoverBol=0}
+this.rotatemsg()
+}
+
+domticker.prototype.rotatemsg=function(){
+var instanceOfTicker=this
+if (this.mouseoverBol==1) //if mouse is currently over ticker, do nothing (pause it)
+setTimeout(function(){instanceOfTicker.rotatemsg()}, 100)
+else{
+this.fadetransition("reset") //FADE EFFECT- RESET OPACITY
+this.contentdiv.innerHTML=this.content[this.pointer]
+this.fadetimer1=setInterval(function(){instanceOfTicker.fadetransition('up', 'fadetimer1')}, 100) //FADE EFFECT- PLAY IT
+this.pointer=(this.pointer<this.content.length-1)? this.pointer+1 : 0
+setTimeout(function(){instanceOfTicker.rotatemsg()}, this.delay) //update container
+}
+}
+
+// -------------------------------------------------------------------
+// fadetransition()- cross browser fade method for IE5.5+ and Mozilla/Firefox
+// -------------------------------------------------------------------
+
+domticker.prototype.fadetransition=function(fadetype, timerid){
+var contentdiv=this.contentdiv
+if (fadetype=="reset")
+this.opacitysetting=0.2
+if (contentdiv.filters && contentdiv.filters[0]){
+if (typeof contentdiv.filters[0].opacity=="number") //IE6+
+contentdiv.filters[0].opacity=this.opacitysetting*100
+else //IE 5.5
+contentdiv.style.filter="alpha(opacity="+this.opacitysetting*100+")"
+}
+else if (typeof contentdiv.style.MozOpacity!="undefined" && this.opacitystring!=""){
+contentdiv.style.MozOpacity=this.opacitysetting
+}
+else
+this.opacitysetting=1
+if (fadetype=="up")
+this.opacitysetting+=0.2
+if (fadetype=="up" && this.opacitysetting>=1)
+clearInterval(this[timerid])
+}
+
+</script>
+</head>
+<body>
+		
+<div class="main">
+  <div class="header">
+    <div class="block_header">
+    
+      <div class="clr"></div>
+      <div>
+        <div align="left">
+          <table width="991" border="0">
+            <tr>
+              <td><img src="../images/web.archive.org/web/20100613062016im_/http%EF%B9%95/dhyanapeetamtn.org/images/banner1.jpg" width="982" height="266"/></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="block_header_form">
+     <div style="float:right;">
+       <div class="menu">
+         <ul>    
+           <li><a href="careers2010.html"><span>Careers</span></a></li>
+           <li><a href="contact2010.html"><span>Contact us</span></a></li>
+           <img src="../images/web.archive.org/web/20100613062029im_/http%EF%B9%95/dhyanapeetamtn.org/images/spaced.jpg" alt="" width="358" height="36"/>
+         </ul>
+         <ul>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+         </ul>
+         <ul>
+           <li></li>
+           <li><a href="https://web.archive.org/web/20101019061854/chttp://www.youtube.com/dhyanapeetamtn"><span>Videos</span></a></li>
+         </ul> 
+         <ul>
+           <li><a href="windows1.html" class="active"><span>Home</span></a></li>
+           <li><a href="founder2010.html"><span>Founder</span></a></li>                       
+           <li><a href="../../services-dhyanapeetam/pages/index.html"><span>Services</span></a></li>
+           <li><a href="../../srianandeshwaratemple/pages/Index.html"><span>Worship</span></a></li>
+           <li><a href="centres2010.html"><span>Centres</span></a></li>
+         </ul>
+       </div>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="slider">
+        <div class="slice1">
+          <div class="slice2" id="slider">
+            <ul>
+              <li>
+                <div>
+                  <p class="img"><a href="https://web.archive.org/web/20101019061854/http://www.dhyanapeetam.org/web/ShivaRatri2010.asp" title="Maha Shivaratri 2010 - inner awakening can happen not only on Maha Shivaratri night; experience the auspicious Shiva energy all your life- learn more at http://www.dhyanapeetam.org/web/ShivaRatri2010.asp and http://innerawakening.org/"><img src="../images/web.archive.org/web/20100613061947im_/http%EF%B9%95/dhyanapeetamtn.org/images/slide_3.jpg" alt="Maha Shivaratri 2010 - inner awakening can happen not only on Maha Shivaratri night; experience the auspicious Shiva energy all your life- learn more at http://www.dhyanapeetam.org/web/ShivaRatri2010.asp and http://innerawakening.org/ " width="908" height="209"/></a></p>
+                  <h2>&nbsp;</h2>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p class="img"><img src="../images/web.archive.org/web/20100613061947im_/http%EF%B9%95/dhyanapeetamtn.org/images/slide_1.jpg" alt="screen 1" width="908" height="209"/></p>
+                  <h2>&nbsp;</h2>
+</div>
+              </li>
+              <li>
+                <div>
+                  <p class="img"><a href="https://web.archive.org/web/20101019061854/http://srianandeshwaratemple.dhyanapeetam.org/LiveStreamSriAnandeshwaraAnandeshwariTemple.asp"><img src="../images/web.archive.org/web/20100613061708im_/http%EF%B9%95/dhyanapeetamtn.org/images/slide_2.jpg" alt="screen 1" width="908" height="209"/></a></p>
+                  <h2>&nbsp;</h2>
+</div>
+              </li>
+              <br/>
+            </ul>
+          </div>
+        </div>
+             </div>
+      <div class="clr"></div>
+      
+    </div>
+  </div>
+    <div class="body">
+    <div align="center"><strong>
+     </strong><strong>Latest Event Updates:
+<select name="jumpMenu5" class="box-hilite" id="jumpMenu7" onchange="MM_jumpMenu('parent',this,0)">
+        <option>------------------------------------------------Select An Event-------------------------------------------------</option>
+       
+        <option value="">***************************************January 2010***********************************************************</option>
+                <option value="http://picasaweb.google.com/NGCI2010/FreeGeneralMedicalCampInTirupatturTN#">Free General Medical Camp in Tirupattur - 24th Jan 2010</option>
+                <option value="http://picasaweb.google.com/NGCI2010/FreeEyeCampAtAvadiTN#">Free Eye Camp, Avadi, Chennai - 23rd Jan 2010</option>
+                <option value="http://picasaweb.google.com/nithya.webmaster/Bagavad_Gita_satsang_Pondy#">Bhagavad Gita Satsang, Pudhucherry(Pondy) - 19 to 23rd Jan 2010</option>
+                <option value="http://picasaweb.google.com/nithya.webmaster/09012010#">Bhagavad Gita Satsang, Chennai - 9 to 11th Jan 2010</option>
+        <option value="http://picasaweb.google.com/nithya.webmaster/08012010Thiruvannamalai#">Swamiji's Birthstar Celebrations at Thiruvannamalai - 8th Jan 2010</option>
+        <option value="2010_jan_medicalcamp_tirupur.html">Free Varma Theraphy Introduction Camp, Tiruppur - 7th Jan 2010</option>
+        <option value="2010_jan_medicalcamp_dharmapuri.html">Free Eye Camp, Dharmapuri - 2nd Jan 2010</option>
+        <option value="2010_jan_jayanthi_embalam.html">Jayanthi Celebrations, Embalam Ashram - 1st Jan 2010</option>
+        <option value="2010_jan_jayanthi_tgodu.html">Jayanthi Celebrations, Thiruchengodu - 1st Jan 2010</option>
+        <option value="2010_jan_jayanthi_tanjore.html">Jayanthi Celebrations, Tanjore - 1st Jan 2010</option>
+        <option value="2010_jan_jayanthi_mayavaram.html">Jayanthi Celebrations, Mayiladudurai - 1st Jan 2010</option>
+         <option value="">*****************************************************************************************************************</option>
+        <option value="imagegallery_2009.html">2009 Events</option>
+        <option value="imagegallery_2008.html">2008 Events</option>
+        <option value="image_2007 gallery.html">2007 Events</option>
+      </select>
+      </strong><br/>
+     <br/>
+    </div>
+    <div class="body_resize">
+      <div class="left">
+      <h3>Nithyananda Dhyanapeetam </h3>
+      <p align="justify"><strong>Nithyananda Dhyanapeetam</strong> is a worldwide movement for meditation and healing. The   foundation has its spiritual headquarters in Bengaluru (Bangalore), India. The   advent of Paramahamsa Nithyananda on planet earth is to spread the inner science   of enlightenment by delivering physical health, mental wellness and spiritual   awakening for all beings irrespective of their race, gender or nationality. To   achieve this, Nithyananda Mission aims to initiate 100 million people into the   unique meditation Nithya Dhyaan and one hundred thousand people to 'living   enlightenment'.<br/>
+        <br/>
+      </p>
+      <div class="bg"></div>
+      <h3>Paramahamsa Nithyananda</h3>
+      <p align="justify"><strong>Paramahamsa Nithyananda</strong> is an enlightened master living amidst us   today. With a worldwide movement for meditation and inner bliss, Nithyananda   continues to offer solutions for things as trivial as every day stress to   something as profound as enlightenment. With a strong footing in the <em>vedic</em> tradition and embracing all world religions as paths to the   ultimate Truth, Nithyananda draws people from around the world crossing all   societal, cultural, language, age and gender barriers.  <br/>
+        <br/>
+      </p>
+      <div class="bg"></div>
+      <h3> Latest Events     </h3>
+      <table width="570" border="0">
+        
+        <tr>
+          <td><iframe src="latest_5events.html" height="200" width="600" frameborder="0"></iframe></td>
+        </tr>
+      </table>
+      <h3>
+        <!-- ++Begin Video Bar Wizard Generated Code++ -->
+        <!--
+  // Created with a Google AJAX Search Wizard
+  // http://code.google.com/apis/ajaxsearch/wizards.html
+  -->
+        
+        <!--
+  // The Following div element will end up holding the actual videobar.
+  // You can place this anywhere on your page.
+  -->
+      </h3>
+      <div class="bg"></div>
+      <table width="577" bordercolorlight="#006633">
+        <tr>
+          <td width="228"><h2><a href="../../services-dhyanapeetam/pages/raju-shareameal.shtml" class="green"><img src="../images/web.archive.org/web/20100613061822im_/http%EF%B9%95/dhyanapeetamtn.org/images/share-a-meal-raju.jpg" width="184" height="138"/>Share a Meal </a></h2>
+            <p>Raju   as this little kid is fondly called by his friends and family visits the   Nithyananda anna Mandir during meal time every day. His parents barely making it   for their family of 6.<br/>
+              </p>
+            <div align="right"><a href="../../services-dhyanapeetam/pages/raju-shareameal.shtml" class="grey"><strong>Read full   story</strong></a></div></td>
+          <td width="98">  <td width="235"><h2><a href="https://web.archive.org/web/20101019061854/http://innerawakening.org/" class="green"><img src="../images/web.archive.org/web/20100613062001im_/http%EF%B9%95/dhyanapeetamtn.org/images/inner_awakening_banyan_tree.jpg" width="184" height="138"/>Inner Awakening</a></h2>
+            <p>Inner   Awakening is a 21 day program aimed at giving all the components and dimensions   of ‘living enlightenment’ or ‘jeevan mukti’ – living the ultimate life.<br/>
+              <!-- <br />                              <a href="http://www.cnet.com/2300-1_1-10002275.html" style="border-top-width: 0px;                                  padding-right: 0px; padding-left: 0px; border-left-width: 0px; font-size: 100%;                                  border-bottom-width: 0px; padding-bottom: 0px; margin: 0px; vertical-align: baseline;                                  cursor: pointer; color: rgb(30,91,126); padding-top: 0px; font-family: inherit;                                  text-align: left; border-right-width: 0px; text-decoration: none">• Photos: Rescue                                  effort</a> -->
+              <br/>
+              </p>
+            <div align="right"><a href="https://web.archive.org/web/20101019061854/http://innerawakening.org/" class="grey"><strong>Read full   story</strong></a></div></td>
+          </tr>
+      </table>
+      </div>
+      <div class="right">
+      <h3>News &amp; Events</h3>
+      <table width="321" height="30" border="0">
+        <tr>
+          <td><script type="text/javascript">
+
+//new domticker(name_of_message_array, CSS_ID, CSS_classname, pause_in_miliseconds, optionalfadeswitch)
+
+new domticker(tickercontent, "domticker", "someclass", 6000, "fadeit")
+</script>&nbsp;</td>
+          </tr>
+        </table>
+      <table width="250" border="0" cellpadding="0" cellspacing="0" bgcolor="EBE1D5">
+        <tr>
+          <td><img src="../images/web.archive.org/web/20100613061906im_/http%EF%B9%95/dhyanapeetamtn.org/images/tvmalai.jpg" width="300" height="180"/><br/>
+            <br/></td>
+        </tr>
+      </table>
+      <br/>
+      <table width="319" border="0" bgcolor="#CCCCCC">
+        <tr>
+          <td width="309"><h3>Quick contact</h3>
+            <table width="304" border="0">
+              <tr>
+                <td width="132"><strong>Tamil Nadu Wing   </strong></td>
+                <td width="162">94433 64644, 94426 02226</td>
+              </tr>
+              <tr>
+                <td><strong>Youth Foundation</strong></td>
+                <td>94433 70552</td>
+              </tr>
+              <tr>
+                <td><strong>Women's Wing</strong></td>
+                <td>98423 23328, 93621 01460</td>
+              </tr>
+              <tr>
+                <td><strong>ASP Dates</strong><br/></td>
+                <td>94440 19791</td>
+              </tr>
+              <tr>
+                <td><strong>Pooja Related</strong></td>
+                <td>94433 88437</td>
+              </tr>
+              <tr>
+                <td><strong>Nithyananda Vidyalaya</strong></td>
+                <td>99945 58334</td>
+              </tr>
+              <tr>
+                <td><strong>Nithyanandam In Villages</strong></td>
+                <td>94420 36037</td>
+              </tr>
+              <tr>
+                <td><strong>Ananda Galleria</strong></td>
+                <td> 93802 72799</td>
+              </tr>
+            </table>
+            <p align="center"><strong><a href="contact2010.html">!! Email the Webmaster</a></strong> !!</p></td>
+          </tr>
+        </table>
+      <table width="250" border="0">
+        <tr>
+          <td><h3>Swamiji's Discourses&nbsp;</h3></td>
+        </tr>  <tr>
+          <td><script type="text/javascript" src="https://web.archive.org/web/20101019061854js_/http://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script><script>if (WIDGETBOX) WIDGETBOX.renderWidget('b4baf249-2913-4fc1-8adc-6cb944006cb1');</script><noscript>Get the <a href="https://web.archive.org/web/20101019061854/http://www.widgetbox.com/widget/youtube-sidebar">YouTube Sidebar Widget</a> widget and many other <a href="https://web.archive.org/web/20101019061854/http://www.widgetbox.com/">great free widgets</a> at <a href="https://web.archive.org/web/20101019061854/http://www.widgetbox.com/">Widgetbox</a>! Not seeing a widget? (<a href="https://web.archive.org/web/20101019061854/http://docs.widgetbox.com/using-widgets/installing-widgets/why-cant-i-see-my-widget/">More info</a>)</noscript></td>
+        </tr>
+      
+      </table>
+      <br/>
+      <div align="center">
+        <table width="329" border="0">
+          <tr>
+            <td width="323"><h3 align="left">Find Us On</h3></td>
+            </tr>
+          </table>
+        <table width="329" border="0">
+          <tr>
+            <td width="323"><div align="center"><a href="https://web.archive.org/web/20101019061854/http://www.dhyanapeetamtn.org/%5C%5Cwww.youtube.com/dhyanapeetamtn"><img src="../images/web.archive.org/web/20100613061837im_/http%EF%B9%95/dhyanapeetamtn.org/images/youtube_logo.jpg" width="82" height="49" alt="img" border="0"/></a><a href="https://web.archive.org/web/20101019061854/http://www.orkut.co.in/Main#Profile?rl=mp&amp;uid=8905841637878492348"><img src="../images/web.archive.org/web/20100613061934im_/http%EF%B9%95/dhyanapeetamtn.org/images/orkut_logo.jpg" width="82" height="49" alt="img" border="0"/></a><a href="https://web.archive.org/web/20101019061854/http://www.facebook.com/home.php#/profile.php?ref=name&amp;id=100000594559103"><img src="../images/web.archive.org/web/20100613061852im_/http%EF%B9%95/dhyanapeetamtn.org/images/facebook_logo.jpg" width="82" height="49" border="0"/></a></div></td>
+          </tr>
+        </table>
+      </div>
+     
+    </div>
+      <div class="clr"></div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+    <div class="footer">
+    <div class="footer_resize"><br/>
+      <table width="978" border="0">
+        <tr>
+          <td width="323"><span class="webtopicswhite">Official Websites</span></td>
+          <td width="323"><span class="webtopicswhite">Other Ashrams</span></td>
+          <td width="323"><span class="webtopicswhite">Nithyananda Vedic Temples</span></td>
+        </tr>
+        <tr>
+          <td><font size="-2"><select name="jumpMenu" class="response" id="jumpMenu" onchange="MM_jumpMenu('parent',this,1)">
+             <option value="#">-------------------------Select-------------------------</option>
+            <option value="http://www.dhyanapeetam.org">Nithyananda Dhyanapeetam</option>
+            <option value="http://www.lifeblissfoundation.org">Life Bliss Foundation</option>
+            <option value="http://nithyanandavidyalaya.org/main.html">Nithyananda Vidhyalaya</option>
+          </select></font></td>
+          <td> <select name="jumpMenu2" class="response" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,1)">
+             <option value="#">-------------------------Select-------------------------</option>
+            <option value="http://www.mynithyananda.com">Nithyananda Malaysia</option>
+            <option value="http://www.lifeblissprogram.org/singapore/">Nithyananda Singapore</option>
+            <option value="http://www.dhyanapeetamtn.org">Nithyananda Tamilnadu</option>
+            <option value="http://www.dhyanapeetam.org/Web/ap">Nithyananda Andhra Pradesh</option>
+            <option value="http://www.dhyanapeetam.org/Web/Spanish">Nithyananda Spain</option>
+            <option value="http://www.nithyananda.org/French">Nithyananda France</option>
+            <option value="http://www.lifeblisscanada.org">Nithyananda Canada</option>
+            <option value="http://www.nyf.in">Nithyananda Youth Foundation TN</option>
+            <option value="http://www.mynithyananda.com/Youth/Homepage.html">Nithyananda Youth Foundation Malaysia</option>
+          </select></td>
+          <td> <select name="jumpMenu3" class="response" id="jumpMenu3" onchange="MM_jumpMenu('parent',this,1)">
+            <option value="#">-------------------------Select-------------------------</option>
+            <option value="http://www.nithyanandavedictemple.org">Nithyananda Vedic Temple, Montclair</option>
+            <option value="http://www.vedictempleseattle.org">Nithyananda Vedic Temple, Seattle</option>
+            <option value="http://www.vedictempleohio.org">Nithyananda Vedic Temple, Ohio</option>
+            <option value="http://srianandeshwaratemple.dhyanapeetam.org">Nithyananda Vedic Temple Bidadi</option>
+            <option value="http://www.vedictempleokc.org">Nithyananda Vedic Temple, Oklahoma City</option>
+          </select></td>
+        </tr>
+      </table>
+      <table width="978" border="0">
+        <tr>
+          <td width="323"><span class="webtopicswhite">eShopping Websites</span></td>
+          <td width="323"><span class="webtopicswhite">Yoga &amp; Meditation</span></td>
+          <td width="323"><span class="webtopicswhite">Event Sites &amp; Blogspots</span></td>
+        </tr>
+        <tr>
+          <td><font size="-2">
+            <select name="jumpMenu4" class="response" id="jumpMenu4" onchange="MM_jumpMenu('parent',this,1)">
+              <option value="#">-------------------------Select-------------------------</option>
+                  <option value="http://www.lifeblissgalleria.com">Life Bliss Galleria, USA</option>
+                  <option value="http://www.lifeblissgalleria.info">Life Bliss Galleria, Edownloads</option>
+                  <option value="http://www.nithyanandagalleria.com">Nithyananda Galleria, India</option>
+              <option value="http://www.nithyanandasacredarts.com">Nithyananda Sacredarts</option>
+            </select>
+          </font></td>
+          <td><select name="jumpMenu4" class="response" id="jumpMenu5" onchange="MM_jumpMenu('parent',this,1)">
+            <option value="#">-------------------------Select-------------------------</option>
+                             <option value="http://www.nithyayoga.org">Nithya Yoga</option>
+              <option value="http://www.lifeblissmeditation.com">Life Bliss Meditation</option>
+          </select></td>
+          <td><select name="jumpMenu4" class="response" id="jumpMenu6" onchange="MM_jumpMenu('parent',this,1)">
+            <option value="#">-------------------------Select----------------------------</option>
+                  <option value="http://www.yogam4you.org">Yogam4you</option>
+                  <option value="http://www.usakumbhamela.net/">USA Kumbamela</option>
+                  <option value="http://www.NithyaEvents.Blogspot.com">Nithyananda Events Blogspot</option>
+              <option value="http://nithyatube.blogspot.com/">Nithyananda Tubes</option>
+          </select></td>
+        </tr>
+      </table>
+<br/>
+      <br/>
+      <p class="leftt"> 2006 ® Dhyanapeetam.org. All rights reserved.<br/>
+      <a href="terms2010.html">Terms of Use</a> | <a href="privacy2010.html">Privacy Policy</a></p>
+      <p class="rightt"><a href="contact2010.html">Any Question? Mail the Webmaster.</a></p>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+</body>
+</html><!--
+     FILE ARCHIVED ON 06:18:54 Oct 19, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:49:28 Mar 13, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.312
+  CDXLines.iter: 22.89 (3)
+  RedisCDXSource: 8.88
+  captures_list: 2001.77
+  esindex: 0.014
+  LoadShardBlock: 1965.632 (3)
+  PetaboxLoader3.resolve: 66.498
+  PetaboxLoader3.datanode: 1566.747 (4)
+  exclusion.robots: 0.326
+  load_resource: 129.824
+-->

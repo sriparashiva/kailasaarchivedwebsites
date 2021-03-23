@@ -1,0 +1,1545 @@
+HTML {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND: #ffffff; COLOR: #000000; LINE-HEIGHT: 150%; FONT-FAMILY: Tahoma, Arial, Verdana, sans-serif
+}
+BODY#bd {
+	BACKGROUND: #fcf3ee; COLOR: #333333; TEXT-ALIGN: center
+}
+BODY.contentpane {
+	BACKGROUND: #ffffff; MARGIN: 1em 2em; WIDTH: auto; COLOR: #000000
+}
+BODY.fs1 {
+	FONT-SIZE: 9px
+}
+BODY.fs2 {
+	FONT-SIZE: 10px
+}
+BODY.fs3 {
+	FONT-SIZE: 11px
+}
+BODY.fs4 {
+	FONT-SIZE: 12px
+}
+BODY.fs5 {
+	FONT-SIZE: 13px
+}
+BODY.fs6 {
+	FONT-SIZE: 14px
+}
+A {
+	COLOR: #ff9a48; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #333; BORDER-BOTTOM-STYLE: none
+}
+A:active {
+	COLOR: #333; BORDER-BOTTOM-STYLE: none
+}
+A:unknown {
+	COLOR: #333; BORDER-BOTTOM-STYLE: none
+}
+.contentheading {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.componentheading {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.blog_more STRONG {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H1 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H4 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H5 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H6 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SMALL {
+	FONT-SIZE: 100%; COLOR: #999999
+}
+.small {
+	FONT-SIZE: 100%; COLOR: #999999
+}
+.smalldark {
+	FONT-SIZE: 100%; COLOR: #999999
+}
+.mosimage_caption {
+	FONT-SIZE: 100%; COLOR: #999999
+}
+H1 {
+	FONT-SIZE: 225%
+}
+H2 {
+	FONT-SIZE: 200%
+}
+H3 {
+	FONT-SIZE: 175%
+}
+H4 {
+	FONT-SIZE: 125%; TEXT-TRANSFORM: uppercase
+}
+H5 {
+	FONT-SIZE: 100%; TEXT-TRANSFORM: uppercase
+}
+H4.color {
+	FONT-SIZE: 100%; COLOR: #cc3333
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+UL LI {
+	PADDING-LEFT: 35px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-list.gif) no-repeat 25px 8px; LINE-HEIGHT: 170%
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 3px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+OL LI {
+	PADDING-LEFT: 15px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/list-img.gif) no-repeat left top
+}
+OL.loc LI {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/list-img.gif) no-repeat left top; FLOAT: left; WIDTH: 19%; HEIGHT: 20px
+}
+OL.loc LI A {
+	FONT-WEIGHT: bold; COLOR: #666666; TEXT-DECORATION: none
+}
+OL.loc LI A:hover {
+	FONT-WEIGHT: bold; COLOR: #000; TEXT-DECORATION: none
+}
+OL.loc2 LI {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/list-img.gif) no-repeat left top; FLOAT: left; WIDTH: 23%; HEIGHT: 20px
+}
+OL.loc2 LI A {
+	FONT-WEIGHT: bold; COLOR: #666666; TEXT-DECORATION: none
+}
+OL.loc2 LI A:hover {
+	FONT-WEIGHT: bold; COLOR: #000; TEXT-DECORATION: none
+}
+TH {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+FIELDSET {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+FIELDSET A {
+	FONT-WEIGHT: bold
+}
+HR {
+	BORDER-TOP: #cccccc 1px solid; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 1px; BORDER-RIGHT-WIDTH: 0px
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+TD {
+	FONT-SIZE: 100%
+}
+DIV {
+	FONT-SIZE: 100%
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM LABEL {
+	CURSOR: pointer
+}
+INPUT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 100%; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+SELECT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 100%; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+TEXTAREA {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 100%; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+.inputbox {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 100%; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+SELECT {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #999999 1px solid; COLOR: #333333; BORDER-BOTTOM: #999999 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #999999 1px solid; COLOR: #333333; BORDER-BOTTOM: #999999 1px solid
+}
+.inputbox {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #999999 1px solid; COLOR: #333333; BORDER-BOTTOM: #999999 1px solid
+}
+.inputbox {
+	FONT-SIZE: 11px; MARGIN-BOTTOM: 1px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.inputbox:hover {
+	FONT-SIZE: 11px; BORDER-LEFT-COLOR: #333333; BORDER-BOTTOM-COLOR: #333333; BORDER-TOP-COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT-COLOR: #333333
+}
+.inputbox:unknown {
+	FONT-SIZE: 11px; BORDER-LEFT-COLOR: #333333; BORDER-BOTTOM-COLOR: #333333; BORDER-TOP-COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT-COLOR: #333333
+}
+PRE {
+	PADDING-RIGHT: 25px; BORDER-TOP: #cccccc 3px solid; PADDING-LEFT: 15px; BACKGROUND: #f7f7f7; PADDING-BOTTOM: 15px; MARGIN: 15px 0px; FONT: 1em/1.5 monospace; PADDING-TOP: 15px
+}
+.code {
+	PADDING-RIGHT: 25px; BORDER-TOP: #cccccc 3px solid; PADDING-LEFT: 15px; BACKGROUND: #f7f7f7; PADDING-BOTTOM: 15px; MARGIN: 15px 0px; FONT: 1em/1.5 monospace; PADDING-TOP: 15px
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 60px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/open_quotes.gif) no-repeat 20px 10px; PADDING-BOTTOM: 15px; FONT: 12px/1.5 Georgia, Times, serif; PADDING-TOP: 15px
+}
+P.quote {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/close_quotes.gif) no-repeat right bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.quote-grey {
+	BORDER-RIGHT: #999999 1px dotted; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px dotted; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/q1_std.gif) #f7f7f7 no-repeat 20px 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #999999 1px dotted; PADDING-TOP: 0px; BORDER-BOTTOM: #999999 1px dotted
+}
+DIV.quote-grey BLOCKQUOTE {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/q2_std.gif) no-repeat right bottom; MARGIN: 0px
+}
+DIV.quote-hilite {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 20px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/q1_std_hl.gif) #ff9a48 no-repeat 10px 10px; PADDING-BOTTOM: 10px; COLOR: #ffffff
+}
+DIV.quote-hilite BLOCKQUOTE {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/q2_std_hl.gif) no-repeat right bottom; MARGIN: 0px
+}
+DIV.quote-grey1 {
+	BORDER-RIGHT: #999999 1px dotted; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px dotted; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/q1_std.gif) #f7f7f7 no-repeat 20px 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #999999 1px dotted; WIDTH: 50%; PADDING-TOP: 0px; BORDER-BOTTOM: #999999 1px dotted
+}
+DIV.quote-grey1 BLOCKQUOTE {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/q2_std.gif) no-repeat right bottom; MARGIN: 0px; TEXT-ALIGN: center
+}
+DIV.quote1-hilite {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 20px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/q1_std_hl.gif) #ff9a48 no-repeat 10px 10px; PADDING-BOTTOM: 10px; COLOR: #ffffff
+}
+DIV.quote-hilite BLOCKQUOTE {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/q2_std_hl.gif) no-repeat right bottom; MARGIN: 0px
+}
+.dropcap {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; FONT: 50px/40px Georgia, Times, serif; COLOR: #333333; PADDING-TOP: 0px
+}
+.dropcap2 {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; FONT: 30px/20px Georgia, Times, serif; COLOR: #333333; PADDING-TOP: 0px
+}
+.dropcap-hilite {
+	PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 3px; BACKGROUND: #ff9a48; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 4px 0px 0px; FONT: 50px/40px Georgia, Times, serif; COLOR: #ffffff; PADDING-TOP: 4px
+}
+.error {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 25px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-error.gif) no-repeat left center; PADDING-BOTTOM: 5px; COLOR: #cc0000; PADDING-TOP: 5px
+}
+.message {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-info.gif) no-repeat left center; PADDING-BOTTOM: 5px; COLOR: #006da3; PADDING-TOP: 5px
+}
+.tips {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 25px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-tips.gif) no-repeat left center; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.highlight {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+A.watch-video {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bt_play_o.gif) no-repeat left center; PADDING-BOTTOM: 5px; BORDER-TOP-STYLE: none; PADDING-TOP: 5px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+A.headphone {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/img_headphones.gif) no-repeat left center; PADDING-BOTTOM: 5px; BORDER-TOP-STYLE: none; PADDING-TOP: 5px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+P.pinnote {
+	BORDER-RIGHT: #f2cab7 1px dotted; PADDING-RIGHT: 10px; BORDER-TOP: #f2cab7 1px dotted; PADDING-LEFT: 50px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/pin-bg.gif) #fff8f2 no-repeat left top; PADDING-BOTTOM: 10px; BORDER-LEFT: #f2cab7 1px dotted; PADDING-TOP: 10px; BORDER-BOTTOM: #f2cab7 1px dotted
+}
+P.clipnote {
+	BORDER-RIGHT: #f2cab7 1px dotted; PADDING-RIGHT: 10px; BORDER-TOP: #f2cab7 1px dotted; PADDING-LEFT: 50px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/clip-bg.gif) #fff8f2 no-repeat left top; PADDING-BOTTOM: 10px; BORDER-LEFT: #f2cab7 1px dotted; PADDING-TOP: 10px; BORDER-BOTTOM: #f2cab7 1px dotted
+}
+P.newspaper {
+	BORDER-RIGHT: #f2cab7 1px dotted; PADDING-RIGHT: 10px; BORDER-TOP: #f2cab7 1px dotted; PADDING-LEFT: 50px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/newspaper-bg.gif) #fff8f2 no-repeat left top; PADDING-BOTTOM: 10px; BORDER-LEFT: #f2cab7 1px dotted; PADDING-TOP: 10px; BORDER-BOTTOM: #f2cab7 1px dotted
+}
+UL.checklist {
+	LIST-STYLE-TYPE: none
+}
+UL.checklist LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/checklist-bg.gif) no-repeat 0px 2px; PADDING-BOTTOM: 5px; MARGIN-LEFT: 3px; PADDING-TOP: 0px
+}
+.bignumber {
+	PADDING-RIGHT: 7px; DISPLAY: block; PADDING-LEFT: 7px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/ol-bg.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 7px; FONT: 20px Arial, sans-serif; COLOR: #ffffff; MARGIN-RIGHT: 8px; PADDING-TOP: 7px
+}
+.blocknumber {
+	CLEAR: both; PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 10px; MARGIN: 5px 0px; PADDING-TOP: 10px; POSITION: relative
+}
+OL.smallnumber {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+OL.smallnumber LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 0px; LINE-HEIGHT: normal; PADDING-TOP: 2px
+}
+OL.smallnumber LI.one {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-01.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.two {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-02.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.three {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-03.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.four {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-04.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.five {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-05.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.six {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-06.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.seven {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-07.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.eight {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-08.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.nine {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-09.gif) no-repeat 0px 3px
+}
+OL.smallnumber LI.ten {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/li-10.gif) no-repeat 0px 3px
+}
+DIV.bubble1 {
+	MARGIN: 15px 0px
+}
+DIV.bubble2 {
+	MARGIN: 15px 0px
+}
+DIV.bubble3 {
+	MARGIN: 15px 0px
+}
+DIV.bubble4 {
+	MARGIN: 15px 0px
+}
+DIV.bubble1 DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub1-br-bg.gif) no-repeat right bottom; MARGIN: 0px; WIDTH: 100%
+}
+DIV.bubble1 DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub1-bl-bg.gif) no-repeat left bottom
+}
+DIV.bubble1 DIV DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub1-tr-bg.gif) no-repeat right top
+}
+DIV.bubble1 DIV DIV DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub1-tl-bg.gif) no-repeat left top
+}
+DIV.bubble1 DIV DIV DIV DIV DIV {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 30px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 15px
+}
+DIV.bubble2 DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub2-br-bg.gif) no-repeat right bottom; MARGIN: 0px; WIDTH: 100%
+}
+DIV.bubble2 DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub2-bl-bg.gif) no-repeat left bottom
+}
+DIV.bubble2 DIV DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub2-tr-bg.gif) no-repeat right top
+}
+DIV.bubble2 DIV DIV DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub2-tl-bg.gif) no-repeat left top
+}
+DIV.bubble2 DIV DIV DIV DIV DIV {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 35px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 15px
+}
+DIV.bubble3 DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub3-br-bg.gif) no-repeat right bottom; MARGIN: 0px; WIDTH: 100%
+}
+DIV.bubble3 DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub3-bl-bg.gif) no-repeat left bottom
+}
+DIV.bubble3 DIV DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub3-tr-bg.gif) no-repeat right top
+}
+DIV.bubble3 DIV DIV DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub3-tl-bg.gif) no-repeat left top
+}
+DIV.bubble3 DIV DIV DIV DIV DIV {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 50px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 15px
+}
+DIV.bubble4 DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub4-br-bg.gif) no-repeat right bottom; MARGIN: 0px; WIDTH: 100%
+}
+DIV.bubble4 DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub4-bl-bg.gif) no-repeat left bottom
+}
+DIV.bubble4 DIV DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub4-tr-bg.gif) no-repeat right top
+}
+DIV.bubble4 DIV DIV DIV DIV {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bub4-tl-bg.gif) no-repeat left top
+}
+DIV.bubble4 DIV DIV DIV DIV DIV {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 55px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 15px
+}
+.caption {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 20px 0px 19px; BORDER-LEFT: #cccccc 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 15px; BORDER-BOTTOM: #cccccc 1px solid; POSITION: relative
+}
+.caption SPAN.title {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BACKGROUND: #ffffff; LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px -2px; COLOR: #999999; LINE-HEIGHT: 14px; PADDING-TOP: 0px; POSITION: absolute; TOP: -7px
+}
+.box-grey {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 20px 0px 0px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.box-hilite {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 20px 0px 0px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.box-hilite {
+	BORDER-RIGHT: #f2cab7 1px dotted; BORDER-TOP: #f2cab7 1px dotted; BACKGROUND: #fff8f2; BORDER-LEFT: #f2cab7 1px dotted; BORDER-BOTTOM: #f2cab7 1px dotted
+}
+.comment {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/comment-icon.gif) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+.comment:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/comment-icon.gif) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+.comment:active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/comment-icon.gif) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+.rss {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/rss.gif) no-repeat left top; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+.rss:hover {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/rss.gif) no-repeat left top; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+.rss:active {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/rss.gif) no-repeat left top; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+IMG.border {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 5px 0px 2px 2px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #cccccc 1px solid
+}
+DIV.moduletable-hilite2 H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-SIZE: 112%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #333; PADDING-TOP: 0px; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; LETTER-SPACING: normal
+}
+DIV.moduletable H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-SIZE: 112%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #333; PADDING-TOP: 0px; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; LETTER-SPACING: normal
+}
+.moduletable H3 {
+	TEXT-TRANSFORM: capitalize
+}
+DIV.moduletable-hilite2 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-TOP: 5px
+}
+DIV.moduletable {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-TOP: 5px
+}
+#ja-col1 DIV.moduletable H3 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; BACKGROUND: #f7f7f7; PADDING-BOTTOM: 8px; MARGIN: 0px -10px 10px -12px; COLOR: #333; PADDING-TOP: 8px
+}
+DIV.moduletable-hilite2 H3 {
+	BORDER-RIGHT: #e8e8e8 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 5px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/col2-h3-bg1.gif) #f0f0f0 no-repeat right bottom; PADDING-BOTTOM: 5px; MARGIN: 0px -5px 10px; BORDER-LEFT: #e8e8e8 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #e8e8e8 1px solid
+}
+#ja-col2 DIV.moduletable H3 {
+	BORDER-RIGHT: #e8e8e8 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 5px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/col2-h3-bg1.gif) #f0f0f0 no-repeat right bottom; PADDING-BOTTOM: 5px; MARGIN: 0px -5px 10px; BORDER-LEFT: #e8e8e8 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #e8e8e8 1px solid
+}
+DIV.tst DIV.moduletable H3 {
+	BORDER-RIGHT: #e8e8e8 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 5px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/col2-h3-bg1.gif) #f0f0f0 no-repeat right bottom; PADDING-BOTTOM: 5px; MARGIN: 0px -5px 10px; BORDER-LEFT: #e8e8e8 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #e8e8e8 1px solid
+}
+DIV.moduletable-faqs H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-SIZE: 130%; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/col2-h3-bg1.gif) no-repeat right bottom; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; COLOR: #333333; PADDING-TOP: 5px; LETTER-SPACING: normal
+}
+DIV.moduletable-hilite2 H3 {
+	PADDING-LEFT: 10px
+}
+#ja-col1 DIV.moduletable {
+	PADDING-RIGHT: 10px; PADDING-BOTTOM: 10px; MARGIN: 0px 1px; COLOR: #333333
+}
+DIV.moduletable-hilite2 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+#ja-col2 DIV.moduletable {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+DIV.moduletable-hilite1 H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 130%; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-TRANSFORM: uppercase; COLOR: #ff9a48; PADDING-TOP: 0px
+}
+DIV.moduletable-hilite1 {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; BACKGROUND: #000000; PADDING-BOTTOM: 10px; PADDING-TOP: 5px
+}
+DIV.moduletable-hilite2 H3 {
+	BACKGROUND: #000000; MARGIN: 30px -10px 0px -12px; COLOR: #ff9a48; BORDER-BOTTOM: #ff9a48 5px solid
+}
+.article_seperator {
+	DISPLAY: block; BORDER-BOTTOM: #f3f3f3 1px dotted; HEIGHT: 20px
+}
+TABLE.blog .article_seperator {
+	
+}
+#ja-col1 .article_seperator {
+	DISPLAY: none
+}
+#ja-col2 .article_seperator {
+	DISPLAY: none
+}
+#ja-topsl .article_seperator {
+	DISPLAY: none
+}
+#ja-botsl .article_seperator {
+	DISPLAY: none
+}
+TABLE.contentpane {
+	WIDTH: 100%; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM-STYLE: none
+}
+TABLE.contentpaneopen {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM-STYLE: none
+}
+TABLE.contenttoc {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 10px 10px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 35%; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid
+}
+TABLE.contenttoc A {
+	FONT-WEIGHT: bold
+}
+TABLE.contenttoc TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 20px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-list.gif) no-repeat 10px 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 5px
+}
+TABLE.contenttoc TH {
+	BACKGROUND: #f7f7f7; TEXT-TRANSFORM: uppercase; TEXT-INDENT: 5px; BORDER-BOTTOM: #cccccc 1px solid
+}
+TABLE.poll {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse
+}
+TABLE.pollstableborder {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none
+}
+TABLE.pollstableborder IMG {
+	VERTICAL-ALIGN: baseline
+}
+TABLE.pollstableborder TD {
+	PADDING-RIGHT: 2px! important; PADDING-LEFT: 2px! important; PADDING-BOTTOM: 2px! important; PADDING-TOP: 2px! important
+}
+TABLE.pollstableborder TR.sectiontableentry1 TD {
+	BACKGROUND: #efefef; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+TABLE.pollstableborder TR.sectiontableentry2 TD {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+TABLE.searchintro {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; WIDTH: 100%; PADDING-TOP: 10px
+}
+TABLE.searchintro TD {
+	PADDING-RIGHT: 5px! important; PADDING-LEFT: 5px! important; PADDING-BOTTOM: 5px! important; PADDING-TOP: 5px! important
+}
+TABLE.adminform {
+	WIDTH: 400px! important
+}
+.adminform .inputbox {
+	
+}
+.blog_more {
+	MARGIN: 15px 0px
+}
+.blog_more STRONG {
+	DISPLAY: block; FONT-SIZE: 150%; MARGIN: 0px 0px 5px
+}
+.blog_more UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.blog_more UL LI {
+	PADDING-LEFT: 13px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-list.gif) no-repeat 2px 8px; MARGIN: 0px
+}
+TD.buttonheading {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 5px! important; PADDING-BOTTOM: 0px! important; PADDING-TOP: 0px! important; TEXT-ALIGN: center
+}
+TD.buttonheading A {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.category {
+	FONT-WEIGHT: bold; TEXT-TRANSFORM: uppercase
+}
+.clr {
+	CLEAR: both
+}
+.componentheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 150%; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/sep.gif) repeat-x 50% bottom; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; COLOR: #333333; LINE-HEIGHT: normal
+}
+.contentdescription {
+	PADDING-BOTTOM: 30px
+}
+UNKNOWN {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BACKGROUND-COLOR: #ffffff
+}
+TABLE.blog .contentheading {
+	PADDING-LEFT: 30px; FONT-WEIGHT: bold; FONT-SIZE: 130%; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/content-hd.gif) #ff8307 no-repeat 15px 8px; COLOR: #ffffff; LINE-HEIGHT: normal; HEIGHT: 22px
+}
+TR.cont TD.contentheading {
+	PADDING-LEFT: 30px; FONT-WEIGHT: bold; FONT-SIZE: 130%; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/content-hd.gif) #ff8307 no-repeat 15px 8px; COLOR: #ffffff; LINE-HEIGHT: normal; HEIGHT: 22px
+}
+DIV.contentheading {
+	PADDING-LEFT: 30px; FONT-WEIGHT: bold; FONT-SIZE: 130%; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/content-hd.gif) #ff8307 no-repeat; COLOR: #ffffff; LINE-HEIGHT: 22px; HEIGHT: 22px
+}
+DIV.contentheading A {
+	COLOR: #fff; LINE-HEIGHT: 22px; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+.contentheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 200%; LINE-HEIGHT: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif
+}
+TD .contentpagetitle A {
+	COLOR: #ffffff; TEXT-ALIGN: left
+}
+A.contentpagetitle {
+	COLOR: #ffffff; BORDER-BOTTOM-STYLE: none
+}
+A.contentpagetitle:hover {
+	COLOR: #ffffff; BORDER-BOTTOM-STYLE: none
+}
+A.contentpagetitle:active {
+	COLOR: #ffffff; BORDER-BOTTOM-STYLE: none
+}
+A.contentpagetitle:unknown {
+	COLOR: #ffffff; BORDER-BOTTOM-STYLE: none
+}
+A.readon {
+	BORDER-BOTTOM-STYLE: none
+}
+TABLE.contentpaneopen TR TD A.readon {
+	FLOAT: right
+}
+A.readon:hover {
+	COLOR: #333; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+A.readon:active {
+	COLOR: #333; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+A.readon:unknown {
+	COLOR: #333; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+DIV.readon A {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; BORDER-BOTTOM-STYLE: none
+}
+DIV.readon A:hover {
+	BORDER-BOTTOM-STYLE: none
+}
+DIV.readon A:active {
+	BORDER-BOTTOM-STYLE: none
+}
+DIV.readon A:unknown {
+	BORDER-BOTTOM-STYLE: none
+}
+DIV.readon {
+	BORDER-RIGHT: #fd9732 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fd9732 1px solid; PADDING-LEFT: 6px; BACKGROUND: #fcebda; PADDING-BOTTOM: 0px; BORDER-LEFT: #fd9732 1px solid; WIDTH: 98%; PADDING-TOP: 6px; BORDER-BOTTOM: #fd9732 1px solid; HEIGHT: 25px
+}
+TABLE.contentpaneopen TD {
+	
+}
+TABLE.contentpane TD {
+	
+}
+TABLE.blog TABLE TD {
+	
+}
+TABLE.contentpaneopen {
+	MARGIN: 0px 8px; WIDTH: 96%; BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+TABLE.contentpane {
+	MARGIN: 0px 8px; WIDTH: 96%; BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+TABLE.blog TABLE.readon {
+	MARGIN: 0px 8px; WIDTH: 96%; BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+.createdate {
+	MARGIN: 5px 0px 10px; COLOR: #999999
+}
+.modifydate {
+	COLOR: #999999; HEIGHT: 15px
+}
+.moduletable {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.mosimage {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 15px 5px 10px 0px; PADDING-TOP: 0px
+}
+.mosimage IMG {
+	
+}
+.mosimage_caption {
+	PADDING-RIGHT: 2px; MARGIN-TOP: 5px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; COLOR: #999999; PADDING-TOP: 1px
+}
+.pagenav {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.pagenav_prev {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.pagenav_next {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.pagenavbar {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+A.pagenav {
+	
+}
+.pagenav_prev A {
+	
+}
+.pagenav_next A {
+	
+}
+.pagenavbar A {
+	
+}
+.pagenavbar {
+	
+}
+.pagenavcounter {
+	PADDING-RIGHT: 14px; PADDING-LEFT: 14px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/pages.gif) no-repeat 0px 11px; PADDING-BOTTOM: 0px; PADDING-TOP: 8px
+}
+.sectiontableheader {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; BACKGROUND: #333333; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px
+}
+TR.sectiontableentry1 TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #ffffff; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #dddddd 1px solid
+}
+TR.sectiontableentry2 TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #efefef; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #dddddd 1px solid
+}
+TR.sectiontableentry1:hover TD {
+	BACKGROUND: #fff0e4
+}
+TR.sectiontableentry2:hover TD {
+	BACKGROUND: #fff0e4
+}
+.small {
+	
+}
+.smalldark {
+	TEXT-ALIGN: left
+}
+DIV.syndicate DIV {
+	TEXT-ALIGN: center
+}
+.pollstableborder TR.sectiontableentry1 TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.pollstableborder TR.sectiontableentry2 TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#ja-wrapper {
+	
+}
+#ja-headerwrap {
+	CLEAR: both; WIDTH: 100%
+}
+#ja-topslwrap {
+	CLEAR: both; WIDTH: 100%
+}
+#ja-botslwrap {
+	CLEAR: both; WIDTH: 100%
+}
+#ja-mainnavwrap1 {
+	CLEAR: both; WIDTH: 100%
+}
+#ja-subnavwrap {
+	CLEAR: both; WIDTH: 100%
+}
+#ja-footerwrap {
+	CLEAR: both; WIDTH: 100%
+}
+#ja-hpwrap {
+	CLEAR: both; WIDTH: 100%
+}
+#ja-header {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-topsl {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-botsl {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-mainnavwrap2 {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-mainnav-inner {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-mnshadow {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-subnav {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-slwrap {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-containerwrap {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-containerwrap-c1 {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-containerwrap-c2 {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-containerwrap-f {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-footer {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+#ja-hp {
+	MARGIN: 0px auto; WIDTH: 750px; TEXT-ALIGN: left
+}
+DIV.ja-w1 {
+	CLEAR: both; MARGIN: 0px auto; WIDTH: 770px
+}
+.wide #ja-header {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-topsl {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-botsl {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-mainnavwrap2 {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-mainnav-inner {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-mnshadow {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-subnav {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-slwrap {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-containerwrap {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-containerwrap-c1 {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-containerwrap-c2 {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-containerwrap-f {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-footer {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide #ja-hp {
+	MARGIN: 0px auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.wide DIV.ja-w1 {
+	MARGIN: 0px auto; WIDTH: 970px
+}
+#ja-content {
+	FLOAT: left; WIDTH: 60%
+}
+#ja-content DIV.innerpad {
+	CLEAR: both;
+	PADDING-RIGHT: 15px;
+	DISPLAY: block;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 15px;
+	MARGIN: 0px;
+	BORDER-LEFT: #ccc 1px solid;
+	PADDING-TOP: 20px;
+	HEIGHT: auto;
+	BACKGROUND-COLOR: #ffffff
+}
+#ja-content DIV.innerpad-bg {
+	CLEAR: both; PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/innerpad-bg.gif) no-repeat left top; PADDING-BOTTOM: 15px; MARGIN: 0px; PADDING-TOP: 20px; HEIGHT: 400px
+}
+UNKNOWN {
+	MIN-HEIGHT: 400px; HEIGHT: auto
+}
+#ja-content #ja-current-content {
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-ALIGN: justify
+}
+#ja-colwrap {
+	FLOAT: right; WIDTH: 40%
+}
+#ja-col1 {
+	FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 50%; COLOR: #ffffff
+}
+#ja-col2 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/col2-bg.gif) no-repeat left top; FLOAT: right; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 49.9%
+}
+#ja-col1 TABLE {
+	BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+#ja-col2 TABLE {
+	BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+#ja-col1 UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#ja-col2 UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#ja-col1 UL LI {
+	PADDING-LEFT: 13px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-list.gif) no-repeat 2px 8px
+}
+#ja-col2 UL LI {
+	PADDING-LEFT: 13px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-list.gif) no-repeat 2px 8px
+}
+DIV.ja-w1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/cwrap-bg.gif) no-repeat center bottom; PADDING-BOTTOM: 11px; PADDING-TOP: 11px
+}
+.wide DIV.ja-w1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/cwrap-wide-bg.gif) no-repeat center bottom; PADDING-BOTTOM: 11px; PADDING-TOP: 11px
+}
+DIV.ja-w2 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/cwrap-right-bg.gif) repeat-y right top
+}
+DIV.ja-w3 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/cwrap-left-bg.gif) repeat-y left top
+}
+#ja-containerwrap {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/mainwrap-bg1.gif) repeat-y 60% 0px
+}
+#ja-container {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/mainwrap-bg2.gif) repeat-y 80% 0px
+}
+#ja-containerwrap {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+#ja-containerwrap-c1 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+#ja-containerwrap-c2 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+#ja-containerwrap-f {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+#ja-containerwrap-f {
+	BACKGROUND: #ffffff
+}
+#ja-containerwrap-f #ja-container {
+	BACKGROUND: #ffffff
+}
+#ja-containerwrap-f #ja-content {
+	WIDTH: 100%
+}
+#ja-containerwrap-c1 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/mainwrap-bg3.gif) repeat-y 80% 0px
+}
+#ja-containerwrap-c1 #ja-container {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#ja-containerwrap-c2 #ja-container {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#ja-containerwrap-c1 #ja-content {
+	WIDTH: 80%
+}
+#ja-containerwrap-c2 #ja-content {
+	WIDTH: 80%
+}
+#ja-containerwrap-c1 #ja-colwrap {
+	WIDTH: 20%
+}
+#ja-containerwrap-c2 #ja-colwrap {
+	WIDTH: 20%
+}
+#ja-containerwrap-c1 #ja-col1 {
+	WIDTH: 100%
+}
+#ja-containerwrap-c1 #ja-col2 {
+	WIDTH: 100%
+}
+#ja-containerwrap-c2 #ja-col1 {
+	WIDTH: 100%
+}
+#ja-containerwrap-c2 #ja-col2 {
+	WIDTH: 100%
+}
+#ja-containerwrap-c2 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/mainwrap-bg2.gif) repeat-y 80% 0px
+}
+#ja-headerwrap {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/header-bg.gif) #000000 no-repeat left bottom
+}
+#ja-header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/header-narrow-bg.jpg) #000000 no-repeat left bottom; PADDING-BOTTOM: 15px; LINE-HEIGHT: normal; PADDING-TOP: 15px; POSITION: relative; HEIGHT: 170px; TEXT-ALIGN: left
+}
+.wide #ja-header {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/header-bg.jpg) #000000 no-repeat left bottom
+}
+#ja-header H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 2.5em; LEFT: 40px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-INDENT: -1000px; PADDING-TOP: 0px; POSITION: absolute; TOP: 120px
+}
+#ja-header H1 A {
+	DISPLAY: block; WIDTH: 250px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 60px; BORDER-BOTTOM-STYLE: none
+}
+#ja-header H1 IMG {
+	FLOAT: left
+}
+#ja-header A {
+	
+}
+#ja-mainnavwrap1 {
+	BACKGROUND: #000000; BORDER-BOTTOM: #323232 1px solid; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+#ja-mainnavwrap2 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/ma-bg.gif) no-repeat right top; PADDING-BOTTOM: 7px; PADDING-TOP: 7px
+}
+#ja-mainnavwrap {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/mainnav-wrap-bg1.gif) repeat-x left top
+}
+#ja-mainnav-inner {
+	PADDING-LEFT: 3px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/mainnav-left-bg.gif) no-repeat left top
+}
+#ja-mainnav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/mainnav-right-bg.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 7px; WIDTH: 100%; PADDING-TOP: 6px
+}
+#ja-mainnavwrap1 A {
+	BORDER-BOTTOM-STYLE: none
+}
+#ja-mainnavwrap1 A:hover {
+	BORDER-BOTTOM-STYLE: none
+}
+#ja-mainnavwrap1 A:active {
+	BORDER-BOTTOM-STYLE: none
+}
+#ja-mainnavwrap1 A:unknown {
+	BORDER-BOTTOM-STYLE: none
+}
+#ja-mainnav UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#ja-mnshadow-wrap {
+	BACKGROUND-COLOR: #f7eae0
+}
+#ja-mnshadow {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/mn-sd-bg.gif) #f7eae0 repeat-x left top; MARGIN: 0px auto; HEIGHT: 10px
+}
+#ja-subnavwrap {
+	BACKGROUND: #f7eae0; PADDING-BOTTOM: 10px
+}
+#ja-subnav {
+	PADDING-LEFT: 20px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/subnav-bg.gif) no-repeat center top
+}
+.wide #ja-subnav {
+	PADDING-LEFT: 20px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/subnav-wide-bg.gif) no-repeat center top
+}
+#ja-search {
+	FLOAT: right
+}
+#ja-search DIV.search {
+	MARGIN: 0px 0px 5px 5px
+}
+#ja-search DIV.search .inputbox {
+	BORDER-RIGHT: #efefef 1px solid; BORDER-TOP: #efefef 1px solid; PADDING-LEFT: 4px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/icon-search.gif) #efefef no-repeat 95% 50%; MARGIN-BOTTOM: 0px; BORDER-LEFT: #efefef 1px solid; WIDTH: 150px; BORDER-BOTTOM: #efefef 1px solid
+}
+A.mainlevel {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 14px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-list.gif) no-repeat 3px 10px; PADDING-BOTTOM: 3px; MARGIN: 0px; WIDTH: 80.9%; COLOR: #333333; BORDER-TOP-STYLE: none; PADDING-TOP: 3px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A.mainlevel:hover {
+	COLOR: #ff0000; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A.mainlevel:active {
+	COLOR: #ff0000; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A.mainlevel:unknown {
+	COLOR: #ff0000; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A.mainlevel#active_menu {
+	COLOR: #ff9a48
+}
+A.sublevel {
+	PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 14px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/sublevel-bg.gif) no-repeat left top; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BORDER-BOTTOM-STYLE: none
+}
+A.sublevel:hover {
+	BORDER-BOTTOM-STYLE: none
+}
+A.sublevel:active {
+	BORDER-BOTTOM-STYLE: none
+}
+A.sublevel:unknown {
+	BORDER-BOTTOM-STYLE: none
+}
+#active_menu {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+.ja-box-left {
+	FLOAT: left; OVERFLOW: visible
+}
+.ja-box-center {
+	FLOAT: left; OVERFLOW: visible
+}
+.ja-box-right {
+	FLOAT: left; OVERFLOW: visible
+}
+.ja-box-full {
+	FLOAT: none; OVERFLOW: hidden
+}
+.ja-box-left DIV.moduletable {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.ja-box-right DIV.moduletable {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.ja-box-center DIV.moduletable {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#ja-topslwrap {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #f7eae0; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #e3d1c3 1px solid
+}
+#ja-topsl {
+	
+}
+#ja-topsl DIV.moduletable {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#ja-topsl DIV.ja-box-left {
+	
+}
+#ja-topsl DIV.ja-box-center {
+	
+}
+#ja-topsl H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; COLOR: #ff9a48; PADDING-TOP: 0px
+}
+#ja-topsl DIV#innerpad DIV.moduletable {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; FONT-FAMILY: Georgia, "Times New Roman", Times, serif
+}
+#ja-topsl DIV#innerpad DIV.moduletable A {
+	COLOR: #e2c5b5
+}
+#ja-topsl DIV#innerpad DIV.moduletable A:hover {
+	COLOR: #333
+}
+#ja-topsl DIV#innerpad {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#ja-topsl DIV.ja-box-left DIV.innerpad1 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/topsl-sd-bg.gif) repeat-x left bottom; PADDING-BOTTOM: 10px
+}
+#ja-topsl DIV.ja-box-center DIV.innerpad1 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/topsl-sd-bg.gif) repeat-x left bottom; PADDING-BOTTOM: 10px
+}
+#ja-topsl DIV.ja-box-right DIV.innerpad1 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/topsl-sd-bg.gif) repeat-x left bottom; PADDING-BOTTOM: 10px
+}
+#ja-topsl DIV.ja-box-center DIV.innerpad1 {
+	MARGIN: 0px 0px 0px 5px
+}
+#ja-topsl DIV.ja-box-right DIV.innerpad1 {
+	MARGIN: 0px 0px 0px 5px
+}
+#ja-topsl DIV.innerpad2 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BACKGROUND: #ae6142; BORDER-LEFT: #999999 1px solid; COLOR: #e2c5b5; BORDER-BOTTOM: #999999 1px solid
+}
+#ja-botslwrap {
+	BORDER-TOP: #e3d1c3 1px solid; BACKGROUND: #f7eae0
+}
+#ja-botslwrap DIV.ja-w1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/botsl-bg.gif) no-repeat center bottom; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+.wide #ja-botslwrap DIV.ja-w1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/botsl-wide-bg.gif) no-repeat center bottom; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+#ja-botslwrap DIV.ja-w2 {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/botsl-right-bg.gif) repeat-y right top
+}
+#ja-botsl {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 0px; BACKGROUND: #ffffff; PADDING-BOTTOM: 10px; BORDER-LEFT: #999999 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #999999 1px solid
+}
+#ja-botsl DIV.moduletable {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#ja-botsl DIV.ja-box-left {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/h-sep.gif) repeat-y right top
+}
+#ja-botsl DIV.ja-box-center {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/h-sep.gif) repeat-y right top
+}
+#ja-botsl H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #333; PADDING-TOP: 0px
+}
+#ja-botsl DIV.ja-botsl-inner {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#ja-topsl UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#ja-botsl UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#ja-topsl LI {
+	PADDING-LEFT: 12px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-list.gif) no-repeat 2px 8px; MARGIN: 0px
+}
+#ja-botsl LI {
+	PADDING-LEFT: 12px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/bullet-list.gif) no-repeat 2px 8px; MARGIN: 0px
+}
+#ja-topsl TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#ja-botsl TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#ja-botsl .article_seperator {
+	DISPLAY: none
+}
+#ja-topsl .article_seperator {
+	DISPLAY: none
+}
+#ja-botsl TABLE {
+	BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+#ja-topsl TABLE {
+	BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+#ja-pathway {
+	DISPLAY: block; FONT-SIZE: 11px; MARGIN: -10px 0px 7px; LINE-HEIGHT: normal
+}
+#ja-pathway IMG {
+	MARGIN: 0px 5px 1px
+}
+#ja-pathway STRONG {
+	FONT-WEIGHT: normal; MARGIN-RIGHT: 5px
+}
+#ja-pathway A {
+	FONT-WEIGHT: bold
+}
+#ja-footerwrap {
+	BORDER-TOP: #e3d1c3 1px solid; BACKGROUND: #ffffff
+}
+#ja-footer {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; COLOR: #999999; PADDING-TOP: 10px; POSITION: relative; TEXT-ALIGN: left
+}
+#ja-footer A {
+	FONT-WEIGHT: normal; COLOR: #999999
+}
+#ja-footer A:hover {
+	FONT-WEIGHT: normal; COLOR: #333333
+}
+#ja-footer A:active {
+	FONT-WEIGHT: normal; COLOR: #333333
+}
+#ja-footer A:unknown {
+	FONT-WEIGHT: normal; COLOR: #333333
+}
+#ja-footer A.footer {
+	FONT-WEIGHT: normal; COLOR: #666; TEXT-DECORATION: none
+}
+#ja-footer A.footer:hover {
+	COLOR: #333; TEXT-DECORATION: underline
+}
+#ja-cert {
+	RIGHT: 0px; POSITION: absolute; TOP: 10px
+}
+#ja-cert A {
+	PADDING-LEFT: 2px; BORDER-BOTTOM-STYLE: none
+}
+UL.accessibility {
+	POSITION: absolute; TOP: -100%
+}
+#ja-hp-switch {
+	PADDING-RIGHT: 5px; DISPLAY: none; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FLOAT: right; PADDING-BOTTOM: 0px; CURSOR: pointer; COLOR: #cccccc; PADDING-TOP: 0px
+}
+.ja-hp-active {
+	BACKGROUND: #ff9a48; COLOR: #ffffff! important; BORDER-BOTTOM: #000000 1px solid
+}
+#ja-hpwrap {
+	FONT-SIZE: 11px; BACKGROUND: #efefef
+}
+#ja-hp {
+	LINE-HEIGHT: normal
+}
+DIV.ja-hpmodule {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 2px; PADDING-TOP: 3px
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+DIV.ja-hpmodule FORM {
+	FLOAT: left
+}
+DIV.ja-hpmodule FORM LABEL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.ja-hpmodule FORM INPUT.button {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #333333 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 11px! important; BACKGROUND: #333333; PADDING-BOTTOM: 0px; BORDER-LEFT: #333333 1px solid; COLOR: #cccccc; PADDING-TOP: 0px; BORDER-BOTTOM: #333333 1px solid
+}
+DIV.ja-hpmodule FORM #mod_login_username {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BACKGROUND: #f7f7f7; MARGIN-BOTTOM: 0px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 70px; BORDER-BOTTOM: #cccccc 1px solid
+}
+DIV.ja-hpmodule FORM #mod_login_password {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BACKGROUND: #f7f7f7; MARGIN-BOTTOM: 0px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 70px; BORDER-BOTTOM: #cccccc 1px solid
+}
+DIV.ja-hpmodule FORM #mod_login_remember {
+	MARGIN-BOTTOM: 0px
+}
+DIV.ja-hpmodule FORM A {
+	PADDING-LEFT: 5px; BORDER-LEFT: #cccccc 1px solid
+}
+#ja-usertools {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 7px
+}
+#ja-usertools UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 15px 0px 0px; PADDING-TOP: 0px
+}
+#ja-usertools UL LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#ja-usertools IMG {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.innerpad {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.ja-banner {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 10px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/sep.gif) repeat-x 50% top; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.ja-banner A {
+	BORDER-BOTTOM-STYLE: none
+}
+.ja-banner A:hover {
+	BORDER-BOTTOM-STYLE: none
+}
+.ja-banner A:active {
+	BORDER-BOTTOM-STYLE: none
+}
+.ja-banner A:unknown {
+	BORDER-BOTTOM-STYLE: none
+}
+.ja-content-module {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 15px; PADDING-LEFT: 0px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/sep.gif) repeat-x 50% top; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+DIV.back_button A {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; MARGIN: 10px 0px; TEXT-TRANSFORM: uppercase; BORDER-BOTTOM-STYLE: none
+}
+DIV.back_button A:hover {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; MARGIN: 10px 0px; TEXT-TRANSFORM: uppercase; BORDER-BOTTOM-STYLE: none
+}
+DIV.back_button A:active {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; MARGIN: 10px 0px; TEXT-TRANSFORM: uppercase; BORDER-BOTTOM-STYLE: none
+}
+DIV.back_button A:unknown {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; MARGIN: 10px 0px; TEXT-TRANSFORM: uppercase; BORDER-BOTTOM-STYLE: none
+}
+#mod_login_password {
+	WIDTH: 90%
+}
+#mod_login_username {
+	WIDTH: 90%
+}
+#mod_login_remember {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+UNKNOWN {
+	DISPLAY: block; WIDTH: 100%
+}
+ HTML .clearfix {
+	HEIGHT: 1%
+}
+HTML {
+	MARGIN-BOTTOM: 1px; HEIGHT: auto
+}
+DIV.nftitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 150%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+DIV.nftitle A:link {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+DIV.nfimages {
+	TEXT-ALIGN: center
+}
+DIV.nfcontent {
+	PADDING-RIGHT: 20px; MARGIN: 0px
+}
+.vdeo-img {
+	BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/video-frame.gif) no-repeat; WIDTH: 86px; HEIGHT: 95px
+}
+.img-right {
+	BORDER-RIGHT: #ccc 2px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 2px solid; PADDING-LEFT: 3px; FLOAT: right; PADDING-BOTTOM: 3px; MARGIN: 4px 0px 0px 10px; BORDER-LEFT: #ccc 2px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 2px solid
+}
+.img-left {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; FLOAT: left; PADDING-BOTTOM: 3px; MARGIN: 4px 10px 0px 0px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid
+}
+.img-center {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 4px 10px 0px 0px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid
+}
+.maintitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+OL.other LI A:link {
+	PADDING-LEFT: 5px; COLOR: #333333; TEXT-DECORATION: none
+}
+OL.other LI A:hover {
+	PADDING-LEFT: 5px; COLOR: #999; TEXT-DECORATION: none
+}
+.table-alt {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; COLOR: #666; PADDING-TOP: 5px; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; BACKGROUND-COLOR: #f9f9f9; TEXT-DECORATION: none
+}
+.table-color {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; COLOR: #666; PADDING-TOP: 5px; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.bg-grey {
+	CLEAR: both; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #fbfbfb
+}
+.bg-grey2 {
+	CLEAR: both; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #fff
+}
+.button {
+	BORDER-RIGHT: #a4a4a4 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #e3e3e3 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 110%; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #e3e3e3 1px solid; COLOR: #666; PADDING-TOP: 2px; BORDER-BOTTOM: #a4a4a4 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f0f0f0; TEXT-ALIGN: center
+}
+.button:hover {
+	BORDER-RIGHT: #e3e3e3 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #a4a4a4 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 110%; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #a4a4a4 1px solid; COLOR: #000; PADDING-TOP: 2px; BORDER-BOTTOM: #e3e3e3 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f8f8f8; TEXT-ALIGN: center
+}
+.button2 {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 110%; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/button-bg.gif) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 140px; COLOR: #333; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; HEIGHT: 26px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.button2:hover {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 110%; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/button-bg.gif) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 140px; COLOR: #999; LINE-HEIGHT: 25px; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; HEIGHT: 26px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE.tv TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 90%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #f9f9f9
+}
+.general {
+	BACKGROUND-IMAGE: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/general-visitor-head.gif); WIDTH: 235px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+.register {
+	BACKGROUND-IMAGE: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/registered-member-head.gif); WIDTH: 235px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+.subscribe {
+	BACKGROUND-IMAGE: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/subscribed-member-head.gif); WIDTH: 235px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+.footer {
+	BACKGROUND-IMAGE: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/sub-curve-bottom.gif); WIDTH: 235px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 8px
+}
+.generalborder {
+	BORDER-RIGHT: #adce49 8px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 10px; BORDER-LEFT: #adce49 8px solid; COLOR: #6f9109; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f7faed
+}
+.registerborder {
+	BORDER-RIGHT: #facd40 8px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 11px; PADDING-BOTTOM: 10px; BORDER-LEFT: #facd40 8px solid; COLOR: #bf9205; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fffaec
+}
+.subscribeborder {
+	BORDER-RIGHT: #fcdb58 8px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 10px; BORDER-LEFT: #fcdb58 8px solid; COLOR: #ac8a04; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fffbef
+}
+.redbutton {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-IMAGE: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/red-button.gif); WIDTH: 179px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 32px
+}
+TABLE.category {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 100%; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; TEXT-TRANSFORM: none; COLOR: #666; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fdfdfd
+}
+TABLE.category TD.sectiontableheader {
+	FONT-WEIGHT: bold; TEXT-TRANSFORM: capitalize; WIDTH: 80%; COLOR: #ffffff; BACKGROUND-COLOR: #b5a8a6
+}
+TABLE.category TD IMG {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid
+}
+TABLE.category TR TD {
+	VERTICAL-ALIGN: top
+}
+DIV.photo {
+	BORDER-RIGHT: #f0f0f0 1px solid;
+	BORDER-TOP: #f0f0f0 1px solid;
+	BORDER-LEFT: #f0f0f0 1px solid;
+	WIDTH: 48%;
+	BORDER-BOTTOM: #f0f0f0 1px solid;
+	BACKGROUND-COLOR: #fbfbfb;
+	TEXT-ALIGN: center;
+	padding: 2px;
+}
+DIV.photo A IMG {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #e5e5e5 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #e5e5e5 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #e5e5e5 1px solid
+}
+DIV.photo A:hover IMG {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #ccc 1px solid
+}
+DIV.photo:hover {
+	WIDTH: 48%;
+	BACKGROUND-COLOR: #f6f6f6
+}
+DIV.view-photo {
+	TEXT-ALIGN: center
+}
+SPAN.pagenav {
+	TEXT-ALIGN: center
+}
+DIV.small {
+	VISIBILITY: hidden
+}
+TABLE.adminform TD .sectiontableheader {
+	BACKGROUND-COLOR: #f2f2f2
+}
+.manditory {
+	PADDING-LEFT: 10px; BACKGROUND: url(https://web.archive.org/web/20100613063325im_/http://dhyanapeetamtn.org/images/manditory.gif) no-repeat 2px 9px
+}
+.optional {
+	PADDING-LEFT: 10px
+}
+.manditory-mark {
+	FONT-WEIGHT: bolder; FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+/*
+     FILE ARCHIVED ON 06:33:25 Jun 13, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:28:47 Mar 13, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 79.192
+  exclusion.robots: 0.081
+  exclusion.robots.policy: 0.075
+  RedisCDXSource: 3.729
+  esindex: 0.008
+  LoadShardBlock: 46.632 (3)
+  PetaboxLoader3.datanode: 46.134 (4)
+  CDXLines.iter: 26.253 (3)
+  load_resource: 38.598
+  PetaboxLoader3.resolve: 20.918
+*/

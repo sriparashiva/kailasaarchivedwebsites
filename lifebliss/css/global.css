@@ -1,0 +1,455 @@
+
+.footer {
+	border: 1px solid #CA9756;
+	background-color: #602F0F;
+	padding: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px;
+	color: #E49749;
+	text-align: left;
+}
+/*.SideNav 
+{
+Blue color: #6482C8 0ld color:#FF6600;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FEE29F;
+	background-image:  url(https://web.archive.org/web/20070105172920im_/file:///C%7C/Documents%20and%20Settings/Valli%20Ramanathan/Local%20Settings/Temporary%20Internet%20Files/Content.IE5/L85DFD13/images/accs/SideNav_BG.jpg);
+	border: 1px solid #DCA457;
+	height: 24px;
+	padding-left: 3px;
+	text-align: left;
+	vertical-align: middle;
+}
+.SideNavSub {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FEE29F;
+	background-image:  url(https://web.archive.org/web/20070105172920im_/file:///C%7C/Documents%20and%20Settings/Valli%20Ramanathan/Local%20Settings/Temporary%20Internet%20Files/Content.IE5/L85DFD13/images/accs/SideNav_BG.jpg);
+/*	border: 1px solid #DCA457;*/
+/*	height: 24px;
+	padding-left: 2px;
+	text-align: left;
+	vertical-align: middle;
+}*/
+a.nav:link {
+	color: #333333;
+	text-decoration: none;
+}
+a.nav:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a.nav:hover {
+	color: #0033AA;
+	text-decoration: underline;
+}
+a.nav:active {
+	color: #333399;
+	text-decoration: none;
+}
+a.headline:link {
+	color: #FF6600;
+	text-decoration: none;
+}
+a.headline:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a.headline:hover {
+	color: #0033AA;
+	text-decoration: underline;
+}
+a.headline:active {
+	color: #333333;
+	text-decoration: none;
+}
+/*
+a:link {
+	color: #003399;
+	text-decoration: underline;
+}
+a:visited {
+	color: #003399;
+	text-decoration: underline;
+}
+a:active {
+	color: #003399;
+	text-decoration: underline;
+}
+a:hover {
+	color: #003399;
+	text-decoration: underline;
+}*/
+td {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 20px;
+}
+.highlight
+{
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	
+}
+.Compass {
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+	color: #303394;
+	font-size: 11px;
+	padding-left: 10px;
+	background-color: #FFFFFF;
+}
+a.Compass:link {
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a.Compass:visited {
+	color: #333333;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a.Compass:active {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a.Compass:hover {
+	color: #6482C8;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.Middle {
+	text-align: center;
+	vertical-align: middle;
+}
+h3 {
+	color: #303030;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 20px;
+}
+.headlineshdr
+{
+	color: #FF6600;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 18px;
+	text-decoration:underline;
+}
+.Col1 {
+	background-color: #293F8B;
+}
+.Subhead {
+	font-weight: bold;
+	color: #000000;
+	font-size: 14px;
+}
+hr {
+	color: #996600;
+	height: 1px;
+}
+form {
+	margin: 0px;
+}
+.Border {
+	border: 1px solid #000000;
+}
+.headerbggrad {
+	background-image: url(../images/20071016012051im_/headerbg_bluegrad.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.headerseparator {
+	/*background-image: url(../gif/20071016012024im_/headerseparator.gif);*/
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 2px;
+}
+.verticalseparator {
+	background-image: url(../images/20071016011940im_/line_vertical.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+	width: 2px;
+}
+.linkwhitetext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.linkwhitetext:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6482C8;
+	text-decoration: Underline;
+}.greylinkbg {
+	text-decoration: none;
+	background-color: #FFFFFF;
+	background-image: url(../images/20071016012038im_/greylinkbg.jpg);
+	background-repeat: repeat-x;
+	
+}
+.greylinkseparator {
+	background-color: #ffffff;
+	background-image: url(../images/20071016011929im_/greyseparators.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	
+	width: 120px;
+}
+.greylinkseparatorfrench {
+	background-color: #999999;
+	background-image: url(../images/20071016011929im_/greyseparators.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 25px;
+	width: 2px;
+}
+.greylinktext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+	
+}
+.greylinktext:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: Underline;
+}
+.beam {
+	background-color: #8A99CC;
+	background-image: url(../pages/beam_blue.jpg.html);
+	background-repeat: repeat-y;
+	background-position: left top;
+	width: 14px;
+}
+.leftlinksbg {
+	background-color: #293F8B;
+}
+.input1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	height: 17px;
+	width: 95px;
+	background-color: #F6F6F6;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #CCCCCC;
+}
+.compasslinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #626262;
+	text-decoration: none;
+}
+.compasslinks:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333333;
+	text-decoration: Underline;
+}
+.pagerightbg {
+	background-color: #FFFFFF;
+	background-image: url(../pages/pagerightbg.jpg.html);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.jokesheadbg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #FDEDB9;
+	background-image: url(../pages/jokesheadbg.jpg.html);
+	background-repeat: repeat-y;
+	background-position: left top;
+	height: 30px;
+}
+.box1grey {
+	background-color: #FEF8ED;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C9D0E8;
+	border-right-color: #C9D0E8;
+	border-bottom-color: #7282BB;
+	border-left-color: #7282BB;
+}
+.box2blue {
+	background-color: #FFFFFF;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C9D0E8;
+	border-right-color: #C9D0E8;
+	border-bottom-color: #7282BB;
+	border-left-color: #7282BB;
+}
+.boxcontent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #161616;
+	text-decoration: none;
+	line-height: 20px;
+}
+.boxcontentlink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #2146CA;
+	text-decoration: Underline;
+	line-height: 20px;
+}
+.boxcontentlink:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #A61C1C;
+	text-decoration: Underline;
+	line-height: 20px;
+}
+.boxcontentlink2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #2146CA;
+	text-decoration: Underline;
+	line-height: 20px;
+}
+.boxcontentlink2:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A61C1C;
+	text-decoration: Underline;
+	line-height: 20px;
+}
+.bluehighlighttext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #174F89;
+	text-decoration: none;
+}
+.bluehighlighttext:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: Underline;
+}
+.dates {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #A61C1C;
+	text-decoration: none;
+}
+.worldtourseparator {
+	background-color: #FFFFFF;
+	background-image: url(../pages/worldtourseparator.gif.html);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 2px;
+}
+.punchlines {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FEE29F;
+}
+a.quotescroll:link {
+	color: #303030;
+	text-decoration: none;
+	font-size:12px;
+	
+}
+a.quotescroll:visited {
+	color: #303030;
+	text-decoration: none;
+	font-size:12px;
+}
+a.quotescroll:active {
+	color: #303030;
+	text-decoration: none;
+}
+a.quotescroll:hover {
+	color: #FF4400;
+	text-decoration: none;
+}
+.headlinehdg
+{
+	font-size:11px;
+	font-weight:bold;
+}
+.wisdom
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style:italic;
+	color: #303030;
+}
+ul
+{
+	margin-top:0px;
+	padding-top:0px;	
+}
+	
+/*
+     FILE ARCHIVED ON 17:29:20 Jan 05, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:29:27 Mar 23, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 23.97 (3)
+  captures_list: 70.986
+  load_resource: 137.334
+  PetaboxLoader3.resolve: 31.065
+  exclusion.robots.policy: 0.185
+  PetaboxLoader3.datanode: 104.59 (4)
+  LoadShardBlock: 40.083 (3)
+  exclusion.robots: 0.201
+  RedisCDXSource: 2.208
+  esindex: 0.015
+*/

@@ -1,0 +1,221 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<title>Nithyananda's 30th Birthday Celebration - Jan 1, 2007</title>
+<link href="../css/20070205211638cs_/safron.css" rel="stylesheet" type="text/css">
+
+<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+<script language="JavaScript">
+
+var srcDir = "images/Events/Jayanthi_2007/";
+var rotate_delay = 5000; // delay in milliseconds (5000 = 5 secs)
+current = -1;
+
+
+function next() {
+if (document.slideform.slide[current+1]) {
+document.images.show.src = srcDir + document.slideform.slide[current+1].value;
+while (!document.images.show.complete){;}
+document.getElementById("imgDesc").innerHTML = document.slideform.slide[current+1].text;
+
+document.slideform.slide.selectedIndex = ++current;
+
+if (document.slideform.slide.selectedIndex <= 25)
+	document.getElementById("city").innerHTML = "Los Angeles, CA";
+if (document.slideform.slide.selectedIndex > 25)
+	document.getElementById("city").innerHTML = "Columbus, OH";
+	
+   }
+else first();
+}
+function previous() {
+if (current-1 >= 0) {
+document.images.show.src = srcDir + document.slideform.slide[current-1].value;
+while (!document.images.show.complete){;}
+document.getElementById("imgDesc").innerHTML = document.slideform.slide[current-1].text;
+
+document.slideform.slide.selectedIndex = --current;
+
+if (document.slideform.slide.selectedIndex <= 25)
+	document.getElementById("city").innerHTML = "Los Angeles, CA";
+if (document.slideform.slide.selectedIndex > 25)
+	document.getElementById("city").innerHTML = "Columbus, OH";
+	
+
+   }
+else last();
+}
+function first() {
+current = 0;
+document.images.show.src = srcDir + document.slideform.slide[0].value;
+while (!document.images.show.complete){;}
+document.getElementById("imgDesc").innerHTML = document.slideform.slide[0].text;
+document.slideform.slide.selectedIndex = 0;
+
+if (document.slideform.slide.selectedIndex <= 25)
+	document.getElementById("city").innerHTML = "Los Angeles, CA";
+if (document.slideform.slide.selectedIndex > 25)
+	document.getElementById("city").innerHTML = "Columbus, OH";
+	
+}
+function last() {
+current = document.slideform.slide.length-1;
+document.images.show.src = srcDir + document.slideform.slide[current].value;
+while (!document.images.show.complete){;}
+document.getElementById("imgDesc").innerHTML = document.slideform.slide[current].text;
+document.slideform.slide.selectedIndex = current;
+
+if (document.slideform.slide.selectedIndex <= 25)
+	document.getElementById("city").innerHTML = "Los Angeles, CA";
+if (document.slideform.slide.selectedIndex > 25)
+	document.getElementById("city").innerHTML = "Columbus, OH";
+	
+}
+function ap(text) {
+document.slideform.slidebutton.value = (text == "Stop Slideshow") ? "View Slideshow" : "Stop Slideshow";
+rotate();
+}
+function change() {
+current = document.slideform.slide.selectedIndex;
+document.images.show.src = srcDir + document.slideform.slide[current].value;
+while (!document.images.show.complete){;}
+document.getElementById("imgDesc").innerHTML = document.slideform.slide[current].text;
+}
+function rotate() {
+if (document.slideform.slidebutton.value == "Stop Slideshow") {
+current = (current == document.slideform.slide.length-1) ? 0 : current+1;
+document.images.show.src = srcDir + document.slideform.slide[current].value;
+while (!document.images.show.complete){;}
+document.getElementById("imgDesc").innerHTML = document.slideform.slide[current].text;
+document.slideform.slide.selectedIndex = current;
+window.setTimeout("rotate()", rotate_delay);
+   }
+}
+
+function setImage(i,city)
+{
+	document.images.show.src = srcDir + document.slideform.slide[i].value;
+	while (!document.images.show.complete){;}
+	document.getElementById("imgDesc").innerHTML = document.slideform.slide[i].text;
+	current = i;
+	document.getElementById("city").innerHTML = city;
+}
+//  End -->
+</script>
+
+</head>
+<body onload="first();">
+<center>
+<form name="slideform" id="Form1">
+<table cellspacing="0" cellpadding="5" id="Table1" border="0" width="790">
+<tr>
+<td align="center" bgcolor="white" colspan="2">
+<h3>Nithyananda's 30th Birthday Celebration - Jan 1, 2007 in Los Angeles</h3>
+<h5 id="city" name="city">Los Angeles, CA</h5>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" bgcolor="#C0C0C0">
+<img src="../images/20070205233155im_/LA_ProcessionStart.jpg" name="show" align="right">
+</td>
+<td id="imgDesc" bgcolor="#C0C0C0" valign="top" align="left" width="50%">
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#C0C0C0" colspan="2">
+<input type="button" onclick="first();" value="|<<" title="Beginning" id="Button1" name="Button1">
+<input type="button" onclick="previous();" value="<<" title="Previous" id="Button2" name="Button2">
+<input type="button" name="slidebutton" onclick="ap(this.value);" value="View Slideshow" title="AutoPlay" id="Button3">
+<input type="button" onclick="next();" value=">>" title="Next" id="Button4" name="Button4">
+<input type="button" onclick="last();" value=">>|" title="End" id="Button5" name="Button5">
+</td>
+</tr>
+</table>
+
+<select name="slide" id="Select1" style="visibility:hidden;"><!--onChange="change();"-->
+<option value="LA_ProcessionStart.jpg" selected>The day dawns - The early morning procession escorting Nithyananda (symbolic of the procession in Bidadi Ashram to the Banyan Tree) to <i>Ananda Sabha</i>(meditation hall) starts...</option>
+<option value="LA_ProcessionStart_2.jpg">A warm greeting - The procession starts...</option>
+<option value="LA_procession.jpg">To the meditation hall - The procession in progress with all the praphernalia...</option>
+<option value="LA_procession_1.jpg">To the meditation hall - The procession in progress with all the praphernalia...</option>
+<option value="LA_morning_meditation.jpg">In Bliss - The morning meditation session in <i>Ananda Sabha</i>...</option>
+<option value="LA_altar.jpg">Center Stage - The beautifully decorated center stage for the evening festivities...</option>
+<option value="LA_group.jpg">Singing with joy - Disciples render soul-stirring <i>Bhajans</i>(devotional songs) on this joyous occasion...</option>
+<option value="LA_bhajans.jpg">Singing with joy - Disciples render soul-stirring <i>Bhajans</i>(devotional songs) on this joyous occasion...</option>
+<option value="LA_program.jpg">Enthralled - The gathering enjoying the <i>Bhajans</i>...</option>
+<option value="LA_LittleAnandas_1.jpg">The tale of the lost tail - <b>Little Anandas</b> portraying the lion with lost tail and his friend, the elephant, frantically searching for the lost tail...</option> 
+<option value="LA_LittleAnandas_2.jpg">The tail is found - Celebration in the jungle on the lion finding his lost tail. In the play, the lion was sitting on his tail and frantically searching everywhere for it. The wise turtle revealed this truth to the lion. Similarly, in our lives, we are searching for peace and bliss all around. Through his teachings and meditation techniques, Nithyananda guides us inward to realize <i>Nithyananda</i>, the eternal bliss within. </option>
+<option value="LA_LittleAnandas_Dance.jpg">Celebrating Innocence - A joyous dance by the Little Anandas...</option>
+<option value="LA_curtain_call.jpg">Close up - Our gifted artists at the end of the play..</option>
+<option value="LA_LittleAnandas_Bow.jpg">Curtain Call - An introduction of our little artists...</option>
+<option value="LA_LittleAnandas_prayer.jpg">A "little" prayer - Little Anandas end the program with a prayer offering gratitude to the <i>Guru</i> and Existence...</option>
+<option value="LA_gathering.jpg">The gathering at the program...</option>
+<option value="LA_dance.jpg">Celebration - The entire gathering dancing in joy...</option>
+<option value="LA_108Dishes.jpg">108 dishes - A special offering of 108 food items specially prepared for the momentous occasion...</option>
+<option value="LA_cake_2.jpg">The Birthday Cake ready to be cut at the altar...</option>
+<option value="LA_cake.jpg">The Birthday Cake...</option>
+<option value="LA_Cake_Candle.jpg">Happy <i>Nithyanandam</i> to you - The youngest ashramite blows out the candles on the cake as the blissful gathering renders <b><em>"Happy Nithyanandam to you"</em></b>...</option>
+<option value="LA_Cake_Cut.jpg">The seniormost and the youngest ashramite cut the cake together...</option>
+<option value="LA_dinner.jpg">A sumptuous dinner...</option>
+<option value="LA_pinata_1.jpg">Fun &amp; Frolic - Little Anandas lined up to start a game of Pinata...</option>
+<option value="LA_pinata_2.jpg">Did it break? - Our little "lion"(of the play) takes a shot at breaking the pinata and winning all the candy...</option>
+<option value="OH_altar.jpg">Celebration in Columbus, Ohio - The beautifully decorated altar at the newly opened Meditation Center...</option>
+<option value="OH_blisstree.jpg">Life Bliss Tree - The stall at the Meditation Center...</option>
+<option value="OH_dinner1.jpg">Ready to serve - The delicious dinner...</option>
+<option value="OH_dinner2.jpg">The gathering enjoying the dinner...</option>
+<option value="OH_musicalchair.jpg">Musical chairs at the party...</option>
+<option value="OH_BdayCake.jpg">The Birthday Cake...</option>
+<option value="OH_cakecutting.jpg">It's Jayanthi! - The cake being cut by the kids...</option>
+</select>
+</form>
+<table align="center" width="790">
+<tr>
+	<td>
+		<p align="center"><b><a href="javascript:setImage(0,'Los Angeles, CA');">Los Angeles, CA</a>&nbsp;|&nbsp;<a href="javascript:setImage(25,'Columbus, OH');">Columbus, OH</a></b></p>
+		<p align="justify" style="color:#303030;">
+			Nithyananda's 30th Birthday was celebrated with great pomp and splendor on January 1, 2007 in all Nithyananda mission centers worldwide.
+			In Los Angeles, the headquarters of Life Bliss Foundation, celebration started with a special prayer and meditation in the morning ushering in joy and positivity.
+			The festivities were topped off with a grand celebration in the evening.
+		</p>
+		<p align="justify">
+		The celebration in Columbus, OH was is the new Meditation Center amidst great joy. Kids and adults alike had a blissful time. The celebreation started on December 31, 2006 with the ckae being cut at midnight.
+		Delicious Dinner, Dance for kirthans, Musical chair were followed by Midnight Cake cutting for Jayanthi by our Little Anandas ,toast with Apple
+		juice and ushered in the New year with a prayer and group meditation. As the grand finale, fire crackers were filled the night sky with colors....
+
+
+		</p>
+		
+		
+	</td>
+</tr>
+</table>
+
+</center>
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 02:05:45 Feb 05, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:45:14 Mar 23, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 160.346
+  exclusion.robots: 0.245
+  exclusion.robots.policy: 0.235
+  RedisCDXSource: 2.964
+  esindex: 0.011
+  LoadShardBlock: 131.874 (3)
+  PetaboxLoader3.datanode: 224.114 (4)
+  CDXLines.iter: 21.819 (3)
+  load_resource: 339.792
+  PetaboxLoader3.resolve: 201.603
+-->

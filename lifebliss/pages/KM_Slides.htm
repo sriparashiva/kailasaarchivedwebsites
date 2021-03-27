@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<title></title>
+<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+<script language="JavaScript">
+
+var srcDir = "images/Events/LAKumbhMela_Sep2006/";
+var rotate_delay = 5000; // delay in milliseconds (5000 = 5 secs)
+current = -1;
+function next() {
+if (document.slideform.slide[current+1]) {
+document.images.show.src = srcDir + document.slideform.slide[current+1].value;
+document.slideform.slide.selectedIndex = ++current;
+   }
+else first();
+}
+function previous() {
+if (current-1 >= 0) {
+document.images.show.src = srcDir + document.slideform.slide[current-1].value;
+document.slideform.slide.selectedIndex = --current;
+   }
+else last();
+}
+function first() {
+current = 0;
+document.images.show.src = srcDir + document.slideform.slide[0].value;
+document.slideform.slide.selectedIndex = 0;
+}
+function last() {
+current = document.slideform.slide.length-1;
+document.images.show.src = srcDir + document.slideform.slide[current].value;
+document.slideform.slide.selectedIndex = current;
+}
+function ap(text) {
+document.slideform.slidebutton.value = (text == "Stop") ? "Start" : "Stop";
+rotate();
+}
+function change() {
+current = document.slideform.slide.selectedIndex;
+document.images.show.src = srcDir + document.slideform.slide[current].value;
+}
+function rotate() {
+if (document.slideform.slidebutton.value == "Stop") {
+current = (current == document.slideform.slide.length-1) ? 0 : current+1;
+document.images.show.src = srcDir + document.slideform.slide[current].value;
+document.slideform.slide.selectedIndex = current;
+window.setTimeout("rotate()", rotate_delay);
+   }
+}
+//  End -->
+</script>
+
+</head>
+<body onload="ap(this.value);">
+<center>
+<form name="slideform" id="Form1">
+<table cellspacing="1" cellpadding="4" bgcolor="#000000" id="Table1">
+<tr>
+<td align="center" bgcolor="white">
+<b>Kumbha Mela - Sep 10, 2006 in Los Angeles</b>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="white">
+<img src="images%EF%B9%A8Events%EF%B9%A8LAKumbhMela_Sep2006%EF%B9%A8MoorthisToCart.jpg.html" name="show" align="absmiddle">
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#C0C0C0">
+<select name="slide" onchange="change();" id="Select1">
+<option value="MoorthisToCart.jpg" selected>Swamiji himself supervises the preparations for the procession</option>
+<option value="SwamijiDrum.jpg">A lighter moment - Swamiji playing the drum</option>
+<option value="SwamijiCart.jpg">The idols are being decorated in the cart by Swamiji himself</option>
+<option value="GuruMoorthi.jpg">The idol of Swamiji(Guru) representing Sahasrara chakra</option>
+<option value="GuruCart.jpg">The Guru ready in cart for the procession</option>
+<option value="GanaeshainCart.jpg">Lord Ganesha decorated and being arranged ready for procession</option>
+<option value="Krishna.jpg">The idol of Krishna</option>
+<option value="DecoratedRatha.jpg">A fully decorated ratha for the procession</option>
+<option value="Swamiji_Vedanta.jpg">The Master welcoming the monks of Swaminarayan Mission for Kumbha Mela</option>
+<option value="Swamiji_Ishwarananda.jpg">Welcoming Swami Ishwarananda of Chinmaya Mission</option>
+<option value="Swamiji_ISKCON.jpg">Swamiji welcoming the Swamis from Vedanta Society</option>
+<option value="Procession_Start.jpg">The procession starts</option>
+<option value="Procession.jpg">Nithyananda Foundation in the procession</option>
+<option value="VedantaSociety.jpg">Vedanta Society in the procession</option>
+<option value="Iskcon.jpg">The ISKCON ratha in the procession</option>
+<option value="Procession_End.jpg">The Nithyananda procession ends at the immersion pool</option>
+<option value="IdolforImmersion.jpg">The idols are arranged ready for immersion in the pool sanctified with water from 21 sacred rivers of India</option>
+<option value="21RiverWaters.jpg">The immersion pool being sanctified with water from 21 holy rivers of India</option>
+<option value="IdolImmersion.jpg">The idols being immersed in the holy water</option>
+<option value="IdolBathe.jpg">Swamiji bathing the idols</option>
+<option value="ImmersionPodium.jpg">The spiritual leaders at the podium supervising preparations for immersing the idols</option>
+<option value="Booths.jpg">The booths of various organizations at the center</option>
+<option value="MoorthisToStage.jpg">The procession idols of Nithyananda Foundation being carried to the podium</option>
+<option value="SwamijiAnandeshwari.jpg">Swamiji on stage. Goddess Anandeshwari (consort of Lord Shiva) is seen by his side</option>
+<option value="SwamijiAddress.jpg">Swamiji addresses the gathering at the Bren Event Center</option>
+<option value="Stage.jpg">The stage with the spiritual leaders and the procession idols</option>
+<option value="Kumbha.jpg">The Kumbha</option>
+<option value="Oath.jpg">The spiritual leaders taking a pledge of solidarity</option>
+<option value="KMDinner.jpg">Swamis and Swaminis of Nithyananda order and Ramakrishna Order enjoy dinner at the venue</option>
+<option value="SwamiSwaminis.jpg">Swamis and Swaminis from California chapter of Nithyananda order and Ramakrishna Order</option>
+</select>
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#C0C0C0">
+<input type="button" onclick="first();" value="|<<" title="Beginning" id="Button1" name="Button1">
+<input type="button" onclick="previous();" value="<<" title="Previous" id="Button2" name="Button2">
+<input type="button" name="slidebutton" onclick="ap(this.value);" value="Start" title="AutoPlay" id="Button3">
+<input type="button" onclick="next();" value=">>" title="Next" id="Button4" name="Button4">
+<input type="button" onclick="last();" value=">>|" title="End" id="Button5" name="Button5">
+</td>
+</tr>
+</table>
+</form>
+</center>
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:59:09 Aug 28, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:55:05 Mar 23, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 0.278
+  exclusion.robots.policy: 0.268
+  LoadShardBlock: 241.74 (3)
+  PetaboxLoader3.resolve: 24.27
+  captures_list: 269.477
+  esindex: 0.012
+  load_resource: 103.902
+  CDXLines.iter: 21.621 (3)
+  RedisCDXSource: 2.402
+  PetaboxLoader3.datanode: 307.579 (4)
+-->
